@@ -1,91 +1,55 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site";
+import { getContentPage, servedPaths } from "@/lib/content";
 
 /**
- * Sitemap for the redesigned site.
+ * Every path this build serves, in the old site's own URL shape.
  *
- * It lists the routes this build actually serves. The current site's remaining
- * URLs are deliberately absent: they belong to the redirect map
- * (docs/redirects/, launch checklist), and a sitemap that promises pages the
- * build does not have is worse than a short one. Pages still on the old site
- * keep their existing URLs and their own entries until they are rebuilt.
- *
- * Add a route here the day its page.tsx lands.
+ * Priority follows how much of a decision a page carries: the homepage and the
+ * program indexes first, program and center pages next, then the people and the
+ * archive. The only exclusion is /search, which has no results page to land on.
+ * A story's lastModified is the date the college published it.
  */
-type Entry = { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] };
 
-const entries: Entry[] = [
-  { path: "/", priority: 1.0, changeFrequency: "weekly" },
+const SKIP = new Set(["/search"]);
 
-  // Programs and admission, the lead-generation pages.
-  { path: "/programs-admission", priority: 0.9, changeFrequency: "weekly" },
-  { path: "/programs-admission/undergraduate-programs", priority: 0.9, changeFrequency: "monthly" },
-  { path: "/programs-admission/graduate-programs", priority: 0.9, changeFrequency: "monthly" },
-  { path: "/programs-admission/certificate-programs", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/programs-admission/request-information", priority: 0.8, changeFrequency: "yearly" },
-  { path: "/programs-admission/how-apply-transfers", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/programs-admission/visit", priority: 0.8, changeFrequency: "monthly" },
+function priorityFor(path: string): number {
+  if (path === "/") return 1;
+  const page = getContentPage(path);
+  const type = page?.type ?? "hand";
+  const depth = path.split("/").filter(Boolean).length;
+  if (type === "hand") {
+    if (path === "/programs-admission") return 0.9;
+    if (path.endsWith("-programs") || path.endsWith("/minors")) return 0.9;
+    if (path === "/connect-contact/news-events") return 0.8;
+    return 0.7;
+  }
+  if (type.startsWith("program-") || type === "minor") return 0.8;
+  if (type === "story") return 0.6;
+  if (type === "faculty") return 0.4;
+  if (type === "center" || type === "department") return depth <= 3 ? 0.7 : 0.5;
+  return depth <= 2 ? 0.6 : 0.5;
+}
 
-  // Undergraduate degree pages.
-  ...[
-    "artificial-intelligence-bs",
-    "biomedical-engineering-bbe",
-    "chemical-physics-bs",
-    "civil-engineering-bce",
-    "computer-science-bs",
-    "electrical-and-computer-engineering-bece",
-    "environmental-engineering-bs",
-    "mechanical-engineering-bme",
-    "physics-bs",
-  ].map((slug) => ({
-    path: `/programs-admission/undergraduate-programs/${slug}`,
-    priority: 0.7,
-    changeFrequency: "monthly" as const,
-  })),
-  {
-    path: "/programs-admission/undergraduate-programs/minors",
-    priority: 0.6,
-    changeFrequency: "monthly" as const,
-  },
-
-  // Graduate degree pages.
-  ...[
-    "artificial-intelligence-ms",
-    "civil-engineering-ms",
-    "data-analytics-ms",
-    "engineering-management-ms",
-  ].map((slug) => ({
-    path: `/programs-admission/graduate-programs/${slug}`,
-    priority: 0.7,
-    changeFrequency: "monthly" as const,
-  })),
-  {
-    path: "/programs-admission/certificate-programs/engineering-management-professional-certificate",
-    priority: 0.6,
-    changeFrequency: "monthly" as const,
-  },
-
-  // The college, research, and people.
-  { path: "/explore-our-college/mission-vision/deans-welcome", priority: 0.6, changeFrequency: "yearly" },
-  { path: "/explore-our-college/centers-institutes-research", priority: 0.8, changeFrequency: "weekly" },
-  { path: "/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/explore-our-college/centers-institutes-research/phaser", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/explore-our-college/centers-institutes-research/space-weather-center", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/explore-our-college/departments/department-civil-and-environmental-engineering", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/connect-contact/news-events", priority: 0.7, changeFrequency: "daily" },
-  { path: "/connect-contact/contact-us", priority: 0.5, changeFrequency: "yearly" },
-  { path: "/connect-contact/faculty-directory/chuan-fu-lin", priority: 0.4, changeFrequency: "yearly" },
-  { path: "/about", priority: 0.5, changeFrequency: "yearly" },
-  { path: "/about/accreditation", priority: 0.5, changeFrequency: "yearly" },
-];
+function changeFrequencyFor(path: string): MetadataRoute.Sitemap[number]["changeFrequency"] {
+  const type = getContentPage(path)?.type;
+  if (path === "/connect-contact/news-events") return "daily";
+  if (type === "story") return "monthly";
+  if (type === "faculty") return "yearly";
+  return "monthly";
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return entries.map((e) => ({
-    url: `${SITE_URL}${e.path === "/" ? "/" : e.path}`,
-    // Evaluated when the route is generated, so the stamp is the build date.
-    lastModified: new Date(),
-    changeFrequency: e.changeFrequency,
-    priority: e.priority,
-  }));
+  const now = new Date();
+  return servedPaths()
+    .filter((p) => !SKIP.has(p))
+    .map((path) => {
+      const published = getContentPage(path)?.published;
+      return {
+        url: `${SITE_URL}${path}`,
+        lastModified: published ? new Date(published) : now,
+        changeFrequency: changeFrequencyFor(path),
+        priority: priorityFor(path),
+      };
+    });
 }
-import { SITE_URL } from "@/lib/site";

@@ -187,9 +187,26 @@ try {
     console.log(`pressed ${name}`);
   }
 
+  let height = opts.height;
+  if (opts.full === "1" || opts.full === "true") {
+    // Lazy-loaded imagery means the height changes as the page settles, so
+    // measure, grow the viewport, let it repaint, then measure again.
+    const measure = `Math.max(document.body.scrollHeight,
+      document.documentElement.scrollHeight)`;
+    let h = await evaluate(`(() => { window.scrollTo(0, document.body.scrollHeight);
+      return ${measure}; })()`);
+    await sleep(700);
+    h = await evaluate(`(() => { window.scrollTo(0, 0); return ${measure}; })()`);
+    await send("Emulation.setDeviceMetricsOverride", {
+      width: opts.width, height: h, deviceScaleFactor: opts.dpr,
+      mobile: opts.width < 700,
+    });
+    await sleep(500);
+    height = h;
+  }
   const shot = await send("Page.captureScreenshot", { format: "png" });
   await writeFile(opts.out, Buffer.from(shot.data, "base64"));
-  console.log(`wrote ${opts.out} (${opts.width}x${opts.height})`);
+  console.log(`wrote ${opts.out} (${opts.width}x${height})`);
 
   if (pageErrors.length) {
     console.log(`page console errors/warnings (${pageErrors.length}):`);

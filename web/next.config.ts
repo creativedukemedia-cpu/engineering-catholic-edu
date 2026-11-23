@@ -57,7 +57,9 @@ const nextConfig: NextConfig = {
   // copies public/ and .next/static beside it.
   output: "standalone",
   async redirects() {
-    return redirectRules().map((rule) => ({ ...rule, permanent: true }));
+    // Next's permanent=true emits HTTP 308. The CMS handoff contract requires
+    // actual 301s, so use its explicit statusCode form instead.
+    return redirectRules().map((rule) => ({ ...rule, statusCode: 301 as const }));
   },
   async headers() {
     if (!isNoindexBuild()) return [];

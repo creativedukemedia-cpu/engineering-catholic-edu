@@ -1,36 +1,24 @@
-# Preview states, captured 2026-11-23
+# Responsive full-page template captures
 
-Rendered from the production build with `node web/scripts/cdp-shot.mjs`.
+Captured from the production Next.js build after the final review fixes. Each image is full-page, not a viewport crop. There are 16 template families at each width: 360px mobile, 768px tablet and 1280px desktop. The images use only the college's own site photography. No stock, generated, placeholder or dummy images are shown.
 
-Home views are plain screenshots. Menu and drawer views were reached by real
-hover, click and key events, so they show interaction states rather than
-mock-ups.
+| Template family | 360px | 768px | 1280px |
+| --- | --- | --- | --- |
+| Homepage | `home-360.png` | `home-768.png` | `home-1280.png` |
+| Inner content | `content-page-360.png` | `content-page-768.png` | `content-page-1280.png` |
+| Department | `department-360.png` | `department-768.png` | `department-1280.png` |
+| Research center | `center-360.png` | `center-768.png` | `center-1280.png` |
+| Graduate program detail | `program-360.png` | `program-768.png` | `program-1280.png` |
+| Undergraduate program detail | `program-undergrad-360.png` | `program-undergrad-768.png` | `program-undergrad-1280.png` |
+| Program index | `program-index-360.png` | `program-index-768.png` | `program-index-1280.png` |
+| Certificate index | `certificate-index-360.png` | `certificate-index-768.png` | `certificate-index-1280.png` |
+| Admissions hub | `admission-hub-360.png` | `admission-hub-768.png` | `admission-hub-1280.png` |
+| Request info | `request-info-360.png` | `request-info-768.png` | `request-info-1280.png` |
+| Story detail | `story-360.png` | `story-768.png` | `story-1280.png` |
+| News index | `news-index-360.png` | `news-index-768.png` | `news-index-1280.png` |
+| Faculty profile | `profile-360.png` | `profile-768.png` | `profile-1280.png` |
+| Directory | `directory-360.png` | `directory-768.png` | `directory-1280.png` |
+| Contact | `contact-360.png` | `contact-768.png` | `contact-1280.png` |
+| Student resource | `student-360.png` | `student-768.png` | `student-1280.png` |
 
-| File | What it shows |
-|---|---|
-| home-1440.png | Desktop fold: two header tiers, hero photo, scrims, path cards |
-| home-390.png | Phone fold: condensed tiers, MENU button, hero with the phone scrim |
-| menu-hover-programs-1440.png | Programs panel opened by hover alone, no click |
-| menu-click-programs-1440.png | Programs panel opened by click, feature card in the fourth column |
-| menu-research-1024.png | Research panel at the breakpoint where mega panels first appear |
-| drawer-programs-390.png | Phone drawer open, Programs accordion expanded |
-| drawer-escape-390.png | Same drawer after Escape, with focus back on the MENU button |
-
-## Captured on the published host, 2026-11-23
-
-Same states, taken from the permanent staging URL rather than the sandbox, to
-prove the container build behaves like the local build. The published contrast
-gate ran against these renders: 75 regions, all pass, at 1440 and at 390.
-
-| File | What it shows |
-|---|---|
-| published-1440.png | Desktop fold on the published container |
-| published-390.png | Phone fold on the published container |
-| published-mobile-hero.png | Phone hero with the mobile scrims |
-| published-research-centers-1440.png | Centers grid, including the typographic PHaSER card |
-| published-news-visit-1440.png | News and visit bands |
-| published-footer-1440.png | Four-tier footer, logo plate, derived columns |
-| published-mega-hover-1440.png | Programs panel opened by hover, on the live host |
-| published-mega-click-1440.png | Programs panel pinned by click, on the live host |
-| published-panel-escape-1440.png | Panel after Escape |
-| published-drawer-390.png | Phone drawer open on the live host |
+Focus captures: `home-1440.png`, `home-390.png`. Each `.log` file beside a capture records the browser console and screenshot dimensions.

@@ -260,3 +260,39 @@ export const footerLinks: NavLink[] = [
   { label: "Accreditation", href: "/about/accreditation" },
   { label: "Contact", href: "/connect-contact/contact-us" },
 ];
+
+/**
+ * Once a page exists in this build, its navigation link stops pointing at the
+ * production host. `served-paths.json` is generated with the content, so the
+ * swap cannot drift from what actually renders, and no path is invented.
+ */
+import servedPaths from "@/content/served-paths.json";
+
+const SERVED = new Set<string>(servedPaths as string[]);
+
+function servedPath(href: string): string | null {
+  if (!href.startsWith(`${LIVE}/`) && href !== LIVE) return null;
+  const stripped = href === LIVE ? "/" : href.slice(LIVE.length);
+  const key = stripped.replace(/\/$/, "") || "/";
+  return SERVED.has(key) ? key : null;
+}
+
+function internalise(link: NavLink) {
+  if (!link.currentSite) return;
+  const key = servedPath(link.href);
+  if (key) {
+    link.href = key;
+    link.currentSite = false;
+  }
+}
+
+for (const link of utilityLinks) internalise(link);
+for (const link of footerLinks) internalise(link);
+internalise(contactLink);
+for (const group of navGroups) {
+  const self = servedPath(group.href);
+  if (self) group.href = self;
+  for (const column of group.columns) {
+    for (const link of column.links) internalise(link);
+  }
+}

@@ -1,23 +1,26 @@
-import { SimpleContentPage } from "@/components/templates/SimpleContentPage";
-import Link from "next/link";
+import {
 
-export default function CertIndex() {
-  return (
-    <SimpleContentPage title="Certificate programs">
-      <ul className="space-y-2">
-        <li>
-          <Link
-            href="/programs-admission/certificate-programs/engineering-management-professional-certificate"
-            className="focus-ring text-catholic-red font-medium"
-          >
-            Engineering Management Professional Certificate
-          </Link>
-        </li>
-        <li className="text-sm text-catholic-blue">
-          Add remaining certificates as sections or pages when content is ready. Cyber security,
-          power electronics, and signal processing need confirmation before publish.
-        </li>
-      </ul>
-    </SimpleContentPage>
-  );
+  ProgramIndexView,
+  programIndexMetadata,
+} from "@/components/templates/ProgramIndex";
+
+// The page is chosen from the URL and every listing is filtered from data
+// already in the repo, so this route blocks instead of streaming a shell.
+// With cacheComponents, URL data read outside <Suspense> must say so.
+export const instant = false;
+
+export const metadata = programIndexMetadata("certificate");
+
+/**
+ * Program index for certificate offerings, generated from the college's own listing
+ * copy. The search box filters the list on the server so each result view is
+ * a real URL a prospective student can share.
+ */
+export default async function CertificateIndexPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
+  const sp = await searchParams;
+  return <ProgramIndexView level="certificate" query={sp.q ?? ""} />;
 }

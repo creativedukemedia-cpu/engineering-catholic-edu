@@ -53,7 +53,15 @@ def served_routes() -> set[str]:
     for page in (WEB / "src" / "app").rglob("page.tsx"):
         rel = page.parent.relative_to(WEB / "src" / "app")
         routes.add("/" + (str(rel) if str(rel) != "." else "") if str(rel) != "." else "/")
-    return {r.replace("\\", "/") for r in routes}
+    hand = {r.replace("\\", "/") for r in routes if "[" not in r}
+    # The content route owns every harvested production path, so those pages
+    # count as served too.
+    content = (WEB / "src" / "content" / "site-content.json")
+    if content.exists():
+        pages = json.loads(content.read_text())["pages"]
+        reserved = hand & set(pages)
+        hand |= {p for p in pages if p not in reserved}
+    return hand
 
 
 def live_paths() -> list[str]:
@@ -65,8 +73,13 @@ def live_paths() -> list[str]:
     ]
 
 
+SERVED_CACHE: set[str] = set()
+
+
 def is_index(path: str) -> bool:
     """True when this exact path is a page in this build."""
+    if path in SERVED_CACHE:
+        return True
     return (WEB / "src" / "app" / path.strip("/") / "page.tsx").exists() or path == "/"
 
 
@@ -144,6 +157,7 @@ def target_for(path: str, served: set[str]) -> tuple[str, str, str]:
 
 def main() -> None:
     served = served_routes()
+    globals()["SERVED_CACHE"] = served
     paths = live_paths()
     rows = []
     for p in paths:

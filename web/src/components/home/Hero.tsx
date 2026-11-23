@@ -1,7 +1,4 @@
-"use client";
-
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
 import { Container } from "@/components/layout/Container";
 import { Button } from "@/components/ui/Button";
 
@@ -20,64 +17,23 @@ import { Button } from "@/components/ui/Button";
  * `videoSrc="/media/hero-campus-aerial.mp4"` to switch the photo for the clip.
  * The still stays as the poster, so the text contrast does not change.
  */
-export function Hero({ videoSrc }: { videoSrc?: string }) {
-  const [playing, setPlaying] = useState(true);
-  const videoRef = useRef<HTMLVideoElement | null>(null);
-
-  // The video is an external system: the effect only tells it to play or
-  // pause. Reduced motion is read from the media query directly, so no state
-  // has to be mirrored out of the browser.
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video || !videoSrc) return;
-
-    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const sync = () => {
-      if (query.matches || !playing) {
-        video.pause();
-      } else {
-        void video.play().catch(() => undefined);
-      }
-    };
-
-    sync();
-    query.addEventListener("change", sync);
-    return () => query.removeEventListener("change", sync);
-  }, [playing, videoSrc]);
-
+export function Hero() {
   return (
     <section
       aria-labelledby="hero-title"
       className="relative isolate overflow-hidden bg-catholic-blue text-white"
     >
       <div className="absolute inset-0 -z-10">
-        {videoSrc ? (
-          <div className="hero-media absolute inset-0">
-            <video
-              ref={videoRef}
-              aria-label="Aerial footage of the Catholic University of America campus."
-              poster="/media/hero-campus-aerial.jpg"
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              className="h-full w-full object-cover"
-            >
-              <source src={videoSrc} type="video/mp4" />
-            </video>
-          </div>
-        ) : (
-          <Image
-            src="/media/hero-campus-aerial.jpg"
-            alt="An aerial view of the Catholic University of America campus, with the Basilica of the National Shrine at left."
-            fill
-            priority
-            quality={80}
-            sizes="100vw"
-            className="hero-photo animate-photo"
-          />
-        )}
-
+        <Image
+          src="/media/hero-campus-aerial.jpg"
+          alt="An aerial view of the Catholic University of America campus, with the Basilica of the National Shrine at left."
+          fill
+          priority
+          fetchPriority="high"
+          quality={80}
+          sizes="100vw"
+          className="hero-photo"
+        />
         {/* Catholic Blue scrims only. They darken the plate rather than tinting
             it, so the measured text contrast stays above 7:1. */}
         <div aria-hidden="true" className="absolute inset-0 scrim-vertical" />
@@ -120,28 +76,6 @@ export function Hero({ videoSrc }: { videoSrc?: string }) {
           </Button>
         </div>
       </Container>
-
-      {videoSrc ? (
-        <div className="absolute bottom-4 right-4 z-10 hidden md:block">
-          <button
-            type="button"
-            aria-label={playing ? "Pause background video" : "Play background video"}
-            onClick={() => setPlaying((v) => !v)}
-            className="focus-ring-dark flex min-h-11 min-w-11 items-center justify-center rounded-full border border-white/60 bg-catholic-blue/55 text-white transition-colors hover:bg-catholic-blue"
-          >
-            {playing ? (
-              <svg aria-hidden="true" viewBox="0 0 16 16" className="h-4 w-4" fill="currentColor">
-                <rect x="3" y="2" width="4" height="12" />
-                <rect x="9" y="2" width="4" height="12" />
-              </svg>
-            ) : (
-              <svg aria-hidden="true" viewBox="0 0 16 16" className="h-4 w-4" fill="currentColor">
-                <path d="M4 2l9 6-9 6z" />
-              </svg>
-            )}
-          </button>
-        </div>
-      ) : null}
 
       <div aria-hidden="true" className="horizon-rule" />
     </section>

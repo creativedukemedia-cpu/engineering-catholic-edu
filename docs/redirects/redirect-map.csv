@@ -2,477 +2,477 @@ live_path,action,target,status,reason
 /,identity,,served,this build serves the same path
 /about,identity,,served,this build serves the same path
 /about/accreditation,identity,,served,this build serves the same path
-/about/board-visitors,301,/about,fallback,"page not rebuilt yet, sending to the nearest served section"
-/about/employment,301,/about,fallback,"page not rebuilt yet, sending to the nearest served section"
-/about/ethics-integrity,301,/about,fallback,"page not rebuilt yet, sending to the nearest served section"
-/about/stats-history,301,/about,fallback,"page not rebuilt yet, sending to the nearest served section"
-/about/stats-history/our-history,301,/about,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/alumni-giving,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/alumni-giving/alumni-awards,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/alumni-giving/sponsorship-and-mentorship-senior-design-day,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/alumni-giving/ways-give,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/about/board-visitors,identity,,served,this build serves the same path
+/about/employment,identity,,served,this build serves the same path
+/about/ethics-integrity,identity,,served,this build serves the same path
+/about/stats-history,identity,,served,this build serves the same path
+/about/stats-history/our-history,identity,,served,this build serves the same path
+/connect-contact,identity,,served,this build serves the same path
+/connect-contact/alumni-giving,identity,,served,this build serves the same path
+/connect-contact/alumni-giving/alumni-awards,identity,,served,this build serves the same path
+/connect-contact/alumni-giving/sponsorship-and-mentorship-senior-design-day,identity,,served,this build serves the same path
+/connect-contact/alumni-giving/ways-give,identity,,served,this build serves the same path
 /connect-contact/contact-us,identity,,served,this build serves the same path
-/connect-contact/faculty-directory,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/aaron-dominguez,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/abhijit-sarkar,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/alessandro-vato,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/andrew-wyner,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/arash-massoudieh,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/bidhan-c-bandyopadhyay,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/biprodas-dutta,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/branko-s-bokan,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/bruno-guidio,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/carlos-yero,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/chaofan-sun,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/charles-c-nguyen,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/christian-l-bomela,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/christopher-raub,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/connect-contact/faculty-directory,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/aaron-dominguez,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/abhijit-sarkar,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/alessandro-vato,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/andrew-wyner,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/arash-massoudieh,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/bidhan-c-bandyopadhyay,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/biprodas-dutta,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/branko-s-bokan,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/bruno-guidio,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/carlos-yero,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/chaofan-sun,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/charles-c-nguyen,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/christian-l-bomela,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/christopher-raub,identity,,served,this build serves the same path
 /connect-contact/faculty-directory/chuan-fu-lin,identity,,served,this build serves the same path
-/connect-contact/faculty-directory/daniel-murphy,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/daniel-sierra-sosa,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/diego-turo,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/dominick-rizk,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/duilia-f-de-mello,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/gangkai-poh,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/garfield-s-jones,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/george-nehmetallah,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/gioia-rau,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/gregorio-toscano,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/grzegorz-kalicy,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/gunnar-lucko,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/hang-liu,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/hanseok-ko,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/hieu-bui,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/ian-l-pegg,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/j-steven-brown,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/jandro-l-abot,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/jason-h-davison,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/jeffrey-w-herrmann,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/john-philip,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/jose-febres,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/joseph-f-vignola,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/lin-ching-chang,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/lorenzo-resca,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/lt-col-lawrence-tobin,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/martin-cordiner,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/matthew-d-sermon,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/matthew-jacobs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/minhee-jun,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/nader-m-namazi,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/nicholas-mecholsky,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/otto-wilson-jr,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/peter-lum,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/rachel-bartek,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/rebecca-kiriazes,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/richard-c-thompson-jr,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/richard-kelley,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/robert-robinson,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/sang-wook-lee,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/santiago-d-solares,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/sean-l-ponder,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/sergio-picozzi,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/shin-shan-yu,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/steve-kraemer,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/tanja-horn,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/tommy-gardner,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/tommy-wiklind,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/ugo-della-croce,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/vadim-uritsky,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/xiaolong-luo,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/faculty-directory/zhaoyang-wang,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/leadership-staff,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/connect-contact/faculty-directory/daniel-murphy,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/daniel-sierra-sosa,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/diego-turo,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/dominick-rizk,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/duilia-f-de-mello,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/gangkai-poh,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/garfield-s-jones,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/george-nehmetallah,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/gioia-rau,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/gregorio-toscano,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/grzegorz-kalicy,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/gunnar-lucko,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/hang-liu,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/hanseok-ko,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/hieu-bui,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/ian-l-pegg,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/j-steven-brown,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/jandro-l-abot,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/jason-h-davison,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/jeffrey-w-herrmann,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/john-philip,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/jose-febres,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/joseph-f-vignola,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/lin-ching-chang,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/lorenzo-resca,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/lt-col-lawrence-tobin,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/martin-cordiner,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/matthew-d-sermon,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/matthew-jacobs,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/minhee-jun,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/nader-m-namazi,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/nicholas-mecholsky,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/otto-wilson-jr,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/peter-lum,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/rachel-bartek,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/rebecca-kiriazes,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/richard-c-thompson-jr,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/richard-kelley,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/robert-robinson,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/sang-wook-lee,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/santiago-d-solares,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/sean-l-ponder,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/sergio-picozzi,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/shin-shan-yu,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/steve-kraemer,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/tanja-horn,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/tommy-gardner,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/tommy-wiklind,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/ugo-della-croce,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/vadim-uritsky,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/xiaolong-luo,identity,,served,this build serves the same path
+/connect-contact/faculty-directory/zhaoyang-wang,identity,,served,this build serves the same path
+/connect-contact/leadership-staff,identity,,served,this build serves the same path
 /connect-contact/news-events,identity,,served,this build serves the same path
-/connect-contact/news-events/all-events,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-events/meister-fellowship-seminar-2026-dr-ian-l-pegg,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-events/past-events,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/18th-annual-senior-design-day-showcases-innovation-and-student-achievement,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/ai-sensing-research-dr-minhee-jun-featured-ais-2026,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/alumni-success-story-achuna-ofonedu,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/archbishop-carroll-high-school-students-complete-another-excellent-semester-school-engineering,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/biomedical-engineering-doctoral-alumna-wins-cosmos-club-prize,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/biomedical-engineering-doctoral-student-wins-dcceas-paper-competition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/building-global-partnerships-engineering-physics-and-computing,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/can-architecture-influence-brain-catholic-university-research-explores-effects-sacred-spaces,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/career-development-school-engineering-networking-night-and-informational-interviewing-event,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/catholic-university-america-announces-abet-accreditation-outcomes,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/catholic-university-hosts-60th-annual-greater-washington-dc-junior-science-and-humanities-symposium,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/catholic-university-joins-prestigious-space-research-consortium,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/catholic-university-researcher-offers-new-insight-space-weather,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/celebrating-innovation-and-leadership-senior-design-night-2026,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/ceo-wells-bullard-connects-engineering-leadership-and-service-common-good,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-alumni-connecting-inspiring-and-making-impact,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-faculty-awarded-university-innovation-fund-grants,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-faculty-secure-over-48-million-new-research-funding,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-hosts-coffee-careers-networking-breakfast,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-hosts-indo-pacific-delegation-ai-discussions,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-professor-chairs-2025-digital-holography-and-3d-imaging-conference,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-students-support-nasas-artemis-ii-mission,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/cepc-students-tour-northrop-grummans-bwi-campus,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/civil-and-environmental-engineering-students-compete-2024-mid-atlantic-west-asce-student-symposium,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/civil-and-environmental-engineering-students-compete-asce-student-symposium,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/college-engineering-physics-and-computing-receives-227500-innovation-fund-awards,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/computer-science-department-launches-new-ai-innovation-lab,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/computer-science-student-receives-prestigious-knights-columbus-fellowship,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/daniel-ragsdale-office-national-cyber-director-white-house-speaks-leadership,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/data-analytics-alumnus-develops-application-urban-navigation,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/department-biomedical-engineering-hosts-fall-2024-speaker-series,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/doctoral-student-receives-prestigious-knights-columbus-fellowship,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-arash-massoudieh-awarded-over-300000-dc-water-grants-environmental-engineering-research,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-arash-massoudieh-receives-grant-dc-water-and-sewer-authority,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-arash-massoudieh-receives-grant-los-angeles-county-public-works,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-bismark-agbelie-receives-grant-indiana-department-transportation,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-charles-nguyen-brings-ai-expertise-international-conference-taiwan,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-diego-turo-receives-grant-united-states-office-naval-research,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-dominick-rizk-receives-2024-orau-ralph-e-powe-junior-faculty-enhancement-award,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-duilia-de-mello-receives-inaugural-iau-stem-ambassador-award,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-george-nehmetallah-receives-nasa-grant,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-hang-liu-elevated-fellow-institute-electrical-and-electronics-engineers-ieee,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-jason-davison-receives-grant-dc-department-energy-and-environment,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-rebecca-kiriazes-receives-grant-partners-americas-foundation,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-sang-wook-lee-secures-nih-grant-study-impact-robotic-training-stroke-survivor-rehabilitation,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/dr-sen-nieh-retires-after-40-years-catholic-university,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/driving-trustworthy-ai-dr-minhee-jun-presents-nist-research-summit,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/electrical-engineering-and-computer-science-professor-presented-nasas-group-achievement-award,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/elijah-feret-shares-his-experience-student-school-engineering,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/engineering-doctoral-student-wins-us-naval-research-lab-award,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/engineering-researchers-awarded-nih-grant-innovative-tissue-chip-research,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/engineering-students-bridge-cultures-and-advance-climate-solutions-mexico,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/expanding-opportunities-college-engineering-physics-and-computing-launches-internship-program,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/exploring-metro-operations-cepc-students-visit-wmata-command-center,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/faculty-across-engineering-physics-and-computing-unite-collaborative-research-workshop,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/faculty-secure-300k-doe-grant-advance-ai-driven-scientific-discovery,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/faculty-spotlight-diego-turo-phd-professor-researcher-athlete,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/freshman-convocation-officially-welcomes-class-2030,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/hanseok-ko-installed-newton-bennett-endowed-chair-engineering,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/hanseok-ko-showcases-ai-innovations-international-ieee-conference,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/hep-group-advances-research-us-cms-annual-meeting,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/hoefler-endowed-scholarship-pledged-support-school-engineering-students,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/inspiring-future-engineers-latinas-leading-tomorrow-visit-campus,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/ireland-innovation-amy-papas-engineering-journey,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/j-steven-brown-appointed-dean-college-engineering-physics-and-computing,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/j-steven-brown-phd-appointed-interim-dean-school-engineering,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/joe-logue-bee-87-leading-innovation-national-security-technology,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/maria-erquiaga-shares-her-experience-student-school-engineering,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/mechanical-engineering-faculty-receive-nih-and-ithc-grants-sepsis-research,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/mechanical-engineering-professor-receives-grant-through-efellows-program,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/mechanical-engineering-seniors-win-nasa-research-competition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/microplastics-research-project-surpasses-1-million-funding,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/multimodal-ai-lab-wins-global-recognition-safe-challenge,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/new-immunoassay-method-integrates-dna-circuits-and-single-domain-antibodies,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/patent-application-wearable-hand-exoskeleton-developed-dr-peter-lum,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/physics-doctoral-student-receives-american-ceramic-society-award-materials-science-research,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/professor-awarded-patent-innovative-ai-driven-microscopy-technology,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/professor-robert-meister-distinguished-faculty-fellowship-awarded-dr-hang-liu,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/recent-alumni-return-career-exploration-fridays,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/remembering-catholic-universitys-first-tau-beta-pi-president,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/researchers-school-engineering-develop-novel-tissue-chip-study-oral-mucositis,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-awarded-nsf-grant-fund-engineering-opportunities-underrepresented-students,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-celebrates-2023-hard-hat-ceremony-senior-design-poster-exhibition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-celebrates-installation-dr-jeffrey-herrmann-st-abbo-fleury-endowed-chair-engineering,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-doctoral-student-wins-dc-council-engineering-and-architectural-societies-annual-paper-competition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-faculty-member-serves-program-chair-optical-society-america-conference-summer-2024,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-hosts-16th-annual-senior-design-day-class-2024,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-hosts-fourth-annual-hard-hat-ceremony-and-senior-design-poster-exhibition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-hosts-high-school-stem-symposium-second-year,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-hosts-spring-2024-senior-design-night,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-hosts-third-annual-senior-design-night,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-launches-da-vinci-scholars-high-school-summer-research-program,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-networking-night-and-informational-interviewing-event,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-offers-artificial-intelligence-workshops,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-organizes-first-pi-day-run,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-professor-receives-grant-department-energy-develop-high-energy-batteries-and-unveil-underlying-science,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-senior-wins-nasa-research-competition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-student-athletes-compete-2024-division-iii-outdoor-track-and-field-national-championship,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-students-and-faculty-win-awards-university-research-day-2024,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/school-engineering-unveils-new-student-lounge,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/shpe-chapter-president-wins-first-place-nila-presidents-summit-competition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/student-ai-research-earns-international-recognition,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/student-spotlight-serena-tewoldeberhan,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/tanja-horn-awarded-750000-nsf-grant-advance-nuclear-physics-research-and-ai-innovation,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/two-school-engineering-seniors-accepted-naval-flight-school,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/university-research-day-showcases-engineering-physics-computing-innovation,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/connect-contact/news-events/all-stories/vice-admiral-mel-williams-leadership-award-presented-outstanding-graduate-students,301,/connect-contact/news-events,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/career-resources,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/career-resources/interviewing-networking-night,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/course-descriptions,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/course-schedules,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/fabrication-services-request-students,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/graduate-teaching-and-research-assistantships,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/grand-challenges-scholars-program-details-apply,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/guidelines-phd-studies,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/guidelines-phd-studies/doctoral-dissertation-defense-guidelines,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/guidelines-phd-studies/doctoral-dissertation-proposal-guidelines,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/guidelines-phd-studies/doctoral-studies-checklist,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/guidelines-phd-studies/ee-dissertation-proposal,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/guidelines-phd-studies/engr-991-directed-study,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/guidelines-phd-studies/phd-comprehensive-examination-guidelines,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/incoming-students,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/info-new-undergraduates,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/information-masters-students,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-all-students,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-all-students/academic-advising,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-all-students/consortium,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-all-students/grades,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-all-students/graduation,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-all-students/registration,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-graduate-students,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-graduate-students/academic-probation-dismissal,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-graduate-students/doctoral-degree-requirements,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-graduate-students/graduate-enrollment-regulations,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-graduate-students/masters-degree-requirements,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-undergraduate-students,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-undergraduate-students/academic-standing,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-undergraduate-students/curriculum,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-undergraduate-students/enrollment,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-undergraduate-students/minors,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/current-students/policies-undergraduate-students/transfer-credit,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/academic-resources-special-programs/student-organizations-projects-service/society-women-engineers-constitution,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/career-development,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/connect-contact/news-events/all-events,identity,,served,this build serves the same path
+/connect-contact/news-events/all-events/meister-fellowship-seminar-2026-dr-ian-l-pegg,identity,,served,this build serves the same path
+/connect-contact/news-events/all-events/past-events,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/18th-annual-senior-design-day-showcases-innovation-and-student-achievement,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/ai-sensing-research-dr-minhee-jun-featured-ais-2026,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/alumni-success-story-achuna-ofonedu,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/archbishop-carroll-high-school-students-complete-another-excellent-semester-school-engineering,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/biomedical-engineering-doctoral-alumna-wins-cosmos-club-prize,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/biomedical-engineering-doctoral-student-wins-dcceas-paper-competition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/building-global-partnerships-engineering-physics-and-computing,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/can-architecture-influence-brain-catholic-university-research-explores-effects-sacred-spaces,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/career-development-school-engineering-networking-night-and-informational-interviewing-event,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/catholic-university-america-announces-abet-accreditation-outcomes,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/catholic-university-hosts-60th-annual-greater-washington-dc-junior-science-and-humanities-symposium,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/catholic-university-joins-prestigious-space-research-consortium,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/catholic-university-researcher-offers-new-insight-space-weather,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/celebrating-innovation-and-leadership-senior-design-night-2026,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/ceo-wells-bullard-connects-engineering-leadership-and-service-common-good,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-alumni-connecting-inspiring-and-making-impact,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-faculty-awarded-university-innovation-fund-grants,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-faculty-secure-over-48-million-new-research-funding,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-hosts-coffee-careers-networking-breakfast,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-hosts-indo-pacific-delegation-ai-discussions,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-professor-chairs-2025-digital-holography-and-3d-imaging-conference,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-students-support-nasas-artemis-ii-mission,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/cepc-students-tour-northrop-grummans-bwi-campus,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/civil-and-environmental-engineering-students-compete-2024-mid-atlantic-west-asce-student-symposium,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/civil-and-environmental-engineering-students-compete-asce-student-symposium,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/college-engineering-physics-and-computing-receives-227500-innovation-fund-awards,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/computer-science-department-launches-new-ai-innovation-lab,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/computer-science-student-receives-prestigious-knights-columbus-fellowship,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/daniel-ragsdale-office-national-cyber-director-white-house-speaks-leadership,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/data-analytics-alumnus-develops-application-urban-navigation,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/department-biomedical-engineering-hosts-fall-2024-speaker-series,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/doctoral-student-receives-prestigious-knights-columbus-fellowship,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-arash-massoudieh-awarded-over-300000-dc-water-grants-environmental-engineering-research,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-arash-massoudieh-receives-grant-dc-water-and-sewer-authority,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-arash-massoudieh-receives-grant-los-angeles-county-public-works,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-bismark-agbelie-receives-grant-indiana-department-transportation,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-charles-nguyen-brings-ai-expertise-international-conference-taiwan,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-diego-turo-receives-grant-united-states-office-naval-research,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-dominick-rizk-receives-2024-orau-ralph-e-powe-junior-faculty-enhancement-award,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-duilia-de-mello-receives-inaugural-iau-stem-ambassador-award,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-george-nehmetallah-receives-nasa-grant,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-hang-liu-elevated-fellow-institute-electrical-and-electronics-engineers-ieee,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-jason-davison-receives-grant-dc-department-energy-and-environment,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-rebecca-kiriazes-receives-grant-partners-americas-foundation,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-sang-wook-lee-secures-nih-grant-study-impact-robotic-training-stroke-survivor-rehabilitation,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/dr-sen-nieh-retires-after-40-years-catholic-university,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/driving-trustworthy-ai-dr-minhee-jun-presents-nist-research-summit,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/electrical-engineering-and-computer-science-professor-presented-nasas-group-achievement-award,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/elijah-feret-shares-his-experience-student-school-engineering,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/engineering-doctoral-student-wins-us-naval-research-lab-award,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/engineering-researchers-awarded-nih-grant-innovative-tissue-chip-research,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/engineering-students-bridge-cultures-and-advance-climate-solutions-mexico,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/expanding-opportunities-college-engineering-physics-and-computing-launches-internship-program,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/exploring-metro-operations-cepc-students-visit-wmata-command-center,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/faculty-across-engineering-physics-and-computing-unite-collaborative-research-workshop,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/faculty-secure-300k-doe-grant-advance-ai-driven-scientific-discovery,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/faculty-spotlight-diego-turo-phd-professor-researcher-athlete,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/freshman-convocation-officially-welcomes-class-2030,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/hanseok-ko-installed-newton-bennett-endowed-chair-engineering,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/hanseok-ko-showcases-ai-innovations-international-ieee-conference,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/hep-group-advances-research-us-cms-annual-meeting,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/hoefler-endowed-scholarship-pledged-support-school-engineering-students,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/inspiring-future-engineers-latinas-leading-tomorrow-visit-campus,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/ireland-innovation-amy-papas-engineering-journey,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/j-steven-brown-appointed-dean-college-engineering-physics-and-computing,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/j-steven-brown-phd-appointed-interim-dean-school-engineering,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/joe-logue-bee-87-leading-innovation-national-security-technology,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/maria-erquiaga-shares-her-experience-student-school-engineering,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/mechanical-engineering-faculty-receive-nih-and-ithc-grants-sepsis-research,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/mechanical-engineering-professor-receives-grant-through-efellows-program,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/mechanical-engineering-seniors-win-nasa-research-competition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/microplastics-research-project-surpasses-1-million-funding,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/multimodal-ai-lab-wins-global-recognition-safe-challenge,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/new-immunoassay-method-integrates-dna-circuits-and-single-domain-antibodies,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/patent-application-wearable-hand-exoskeleton-developed-dr-peter-lum,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/physics-doctoral-student-receives-american-ceramic-society-award-materials-science-research,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/professor-awarded-patent-innovative-ai-driven-microscopy-technology,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/professor-robert-meister-distinguished-faculty-fellowship-awarded-dr-hang-liu,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/recent-alumni-return-career-exploration-fridays,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/remembering-catholic-universitys-first-tau-beta-pi-president,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/researchers-school-engineering-develop-novel-tissue-chip-study-oral-mucositis,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-awarded-nsf-grant-fund-engineering-opportunities-underrepresented-students,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-celebrates-2023-hard-hat-ceremony-senior-design-poster-exhibition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-celebrates-installation-dr-jeffrey-herrmann-st-abbo-fleury-endowed-chair-engineering,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-doctoral-student-wins-dc-council-engineering-and-architectural-societies-annual-paper-competition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-faculty-member-serves-program-chair-optical-society-america-conference-summer-2024,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-hosts-16th-annual-senior-design-day-class-2024,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-hosts-fourth-annual-hard-hat-ceremony-and-senior-design-poster-exhibition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-hosts-high-school-stem-symposium-second-year,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-hosts-spring-2024-senior-design-night,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-hosts-third-annual-senior-design-night,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-launches-da-vinci-scholars-high-school-summer-research-program,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-networking-night-and-informational-interviewing-event,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-offers-artificial-intelligence-workshops,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-organizes-first-pi-day-run,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-professor-receives-grant-department-energy-develop-high-energy-batteries-and-unveil-underlying-science,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-senior-wins-nasa-research-competition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-student-athletes-compete-2024-division-iii-outdoor-track-and-field-national-championship,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-students-and-faculty-win-awards-university-research-day-2024,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/school-engineering-unveils-new-student-lounge,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/shpe-chapter-president-wins-first-place-nila-presidents-summit-competition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/student-ai-research-earns-international-recognition,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/student-spotlight-serena-tewoldeberhan,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/tanja-horn-awarded-750000-nsf-grant-advance-nuclear-physics-research-and-ai-innovation,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/two-school-engineering-seniors-accepted-naval-flight-school,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/university-research-day-showcases-engineering-physics-computing-innovation,identity,,served,this build serves the same path
+/connect-contact/news-events/all-stories/vice-admiral-mel-williams-leadership-award-presented-outstanding-graduate-students,identity,,served,this build serves the same path
+/current-students,identity,,served,this build serves the same path
+/current-students/career-resources,identity,,served,this build serves the same path
+/current-students/career-resources/interviewing-networking-night,identity,,served,this build serves the same path
+/current-students/course-descriptions,identity,,served,this build serves the same path
+/current-students/course-schedules,identity,,served,this build serves the same path
+/current-students/fabrication-services-request-students,identity,,served,this build serves the same path
+/current-students/graduate-teaching-and-research-assistantships,identity,,served,this build serves the same path
+/current-students/grand-challenges-scholars-program-details-apply,identity,,served,this build serves the same path
+/current-students/guidelines-phd-studies,identity,,served,this build serves the same path
+/current-students/guidelines-phd-studies/doctoral-dissertation-defense-guidelines,identity,,served,this build serves the same path
+/current-students/guidelines-phd-studies/doctoral-dissertation-proposal-guidelines,identity,,served,this build serves the same path
+/current-students/guidelines-phd-studies/doctoral-studies-checklist,identity,,served,this build serves the same path
+/current-students/guidelines-phd-studies/ee-dissertation-proposal,identity,,served,this build serves the same path
+/current-students/guidelines-phd-studies/engr-991-directed-study,identity,,served,this build serves the same path
+/current-students/guidelines-phd-studies/phd-comprehensive-examination-guidelines,identity,,served,this build serves the same path
+/current-students/incoming-students,identity,,served,this build serves the same path
+/current-students/info-new-undergraduates,identity,,served,this build serves the same path
+/current-students/information-masters-students,identity,,served,this build serves the same path
+/current-students/policies-all-students,identity,,served,this build serves the same path
+/current-students/policies-all-students/academic-advising,identity,,served,this build serves the same path
+/current-students/policies-all-students/consortium,identity,,served,this build serves the same path
+/current-students/policies-all-students/grades,identity,,served,this build serves the same path
+/current-students/policies-all-students/graduation,identity,,served,this build serves the same path
+/current-students/policies-all-students/registration,identity,,served,this build serves the same path
+/current-students/policies-graduate-students,identity,,served,this build serves the same path
+/current-students/policies-graduate-students/academic-probation-dismissal,identity,,served,this build serves the same path
+/current-students/policies-graduate-students/doctoral-degree-requirements,identity,,served,this build serves the same path
+/current-students/policies-graduate-students/graduate-enrollment-regulations,identity,,served,this build serves the same path
+/current-students/policies-graduate-students/masters-degree-requirements,identity,,served,this build serves the same path
+/current-students/policies-undergraduate-students,identity,,served,this build serves the same path
+/current-students/policies-undergraduate-students/academic-standing,identity,,served,this build serves the same path
+/current-students/policies-undergraduate-students/curriculum,identity,,served,this build serves the same path
+/current-students/policies-undergraduate-students/enrollment,identity,,served,this build serves the same path
+/current-students/policies-undergraduate-students/minors,identity,,served,this build serves the same path
+/current-students/policies-undergraduate-students/transfer-credit,identity,,served,this build serves the same path
+/explore-our-college,identity,,served,this build serves the same path
+/explore-our-college/academic-resources-special-programs/student-organizations-projects-service/society-women-engineers-constitution,identity,,served,this build serves the same path
+/explore-our-college/career-development,identity,,served,this build serves the same path
 /explore-our-college/centers-institutes-research,identity,,served,this build serves the same path
 /explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr,identity,,served,this build serves the same path
-/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/cabrr-members,301,/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/contact-us,301,/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/labs-publications-notables,301,/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/cabrr-members,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/contact-us,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/labs-publications-notables,identity,,served,this build serves the same path
 /explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs,identity,,served,this build serves the same path
-/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs/personnel,301,/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs/resources-iacs,301,/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs/personnel,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs/resources-iacs,identity,,served,this build serves the same path
 /explore-our-college/centers-institutes-research/phaser,identity,,served,this build serves the same path
-/explore-our-college/centers-institutes-research/phaser/faculty-liaisons,301,/explore-our-college/centers-institutes-research/phaser,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/phaser/our-personnel,301,/explore-our-college/centers-institutes-research/phaser,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/phaser/our-science,301,/explore-our-college/centers-institutes-research/phaser,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/phaser/phaser-institutions,301,/explore-our-college/centers-institutes-research/phaser,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/phaser/publications,301,/explore-our-college/centers-institutes-research/phaser,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/phaser/researchers,301,/explore-our-college/centers-institutes-research/phaser,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/phaser/who-we-are,301,/explore-our-college/centers-institutes-research/phaser,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/centers-institutes-research/phaser/faculty-liaisons,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/phaser/our-personnel,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/phaser/our-science,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/phaser/phaser-institutions,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/phaser/publications,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/phaser/researchers,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/phaser/who-we-are,identity,,served,this build serves the same path
 /explore-our-college/centers-institutes-research/space-weather-center,identity,,served,this build serves the same path
-/explore-our-college/centers-institutes-research/space-weather-center/applied-space-weather-research-degrees,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/current-space-weather,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/members-space-weather-center,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work/flow-tracking-challenge,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work/heliocme-heliospheric-cme-events-catalog,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work/heliophysics-event-lists,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work/past-events,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work/past-events/first-international-workshop-small-satellites-space-weather-research-forecasting,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work/space-weather-and-sea-animal-strandings,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/our-work/space-weather-and-society,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/centers-institutes-research/space-weather-center/upcoming-events,301,/explore-our-college/centers-institutes-research/space-weather-center,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/about-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/about-us/contact-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/about-us/employment-opportunities,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/about-us/message-chair,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/about-us/what-biomedical-engineering,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/academics-programs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/academics-programs/courses,301,/programs-admission,fallback,"program path duplicated under a department; target /programs-admission/courses not built yet, sending to /programs-admission"
+/explore-our-college/centers-institutes-research/space-weather-center/applied-space-weather-research-degrees,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/current-space-weather,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/members-space-weather-center,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work/flow-tracking-challenge,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work/heliocme-heliospheric-cme-events-catalog,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work/heliophysics-event-lists,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work/past-events,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work/past-events/first-international-workshop-small-satellites-space-weather-research-forecasting,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work/space-weather-and-sea-animal-strandings,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/our-work/space-weather-and-society,identity,,served,this build serves the same path
+/explore-our-college/centers-institutes-research/space-weather-center/upcoming-events,identity,,served,this build serves the same path
+/explore-our-college/departments,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/about-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/about-us/contact-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/about-us/employment-opportunities,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/about-us/message-chair,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/about-us/what-biomedical-engineering,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/academics-programs,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/academics-programs/courses,identity,,served,this build serves the same path
 /explore-our-college/departments/department-biomedical-engineering/academics-programs/graduate-programs,301,/programs-admission/graduate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-biomedical-engineering/academics-programs/graduate-programs/registration-and-enrollment-graduate-programs,301,/programs-admission/graduate-programs,fallback,"program path duplicated under a department; target /programs-admission/graduate-programs/registration-and-enrollment-graduate-programs not built yet, sending to /programs-admission/graduate-programs"
+/explore-our-college/departments/department-biomedical-engineering/academics-programs/graduate-programs/registration-and-enrollment-graduate-programs,identity,,served,this build serves the same path
 /explore-our-college/departments/department-biomedical-engineering/academics-programs/undergraduate-programs,301,/programs-admission/undergraduate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-biomedical-engineering/faculty-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/faculty-research/areas-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-biomedical-engineering/news-events,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/departments/department-biomedical-engineering/faculty-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/faculty-research/areas-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-biomedical-engineering/news-events,identity,,served,this build serves the same path
 /explore-our-college/departments/department-civil-and-environmental-engineering,identity,,served,this build serves the same path
-/explore-our-college/departments/department-civil-and-environmental-engineering/about-us,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/advisory-council,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/contact-us,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/message-chair,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs/courses,301,/programs-admission,fallback,"program path duplicated under a department; target /programs-admission/courses not built yet, sending to /programs-admission"
+/explore-our-college/departments/department-civil-and-environmental-engineering/about-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/advisory-council,identity,,served,this build serves the same path
+/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/contact-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/message-chair,identity,,served,this build serves the same path
+/explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs,identity,,served,this build serves the same path
+/explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs/courses,identity,,served,this build serves the same path
 /explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs/graduate-programs,301,/programs-admission/graduate-programs,rewrite,program path duplicated under a department
 /explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs/undergraduate-programs,301,/programs-admission/undergraduate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-civil-and-environmental-engineering/faculty-research,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-civil-and-environmental-engineering/faculty-research/areas-research,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-civil-and-environmental-engineering/news-events,301,/explore-our-college/departments/department-civil-and-environmental-engineering,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/about-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/about-us/advisory-council,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/about-us/contact-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/about-us/message-chair,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/academics-programs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/departments/department-civil-and-environmental-engineering/faculty-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-civil-and-environmental-engineering/faculty-research/areas-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-civil-and-environmental-engineering/news-events,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/about-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/about-us/advisory-council,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/about-us/contact-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/about-us/message-chair,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/academics-programs,identity,,served,this build serves the same path
 /explore-our-college/departments/department-computer-science/academics-programs/certificate-programs,301,/programs-admission/certificate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-computer-science/academics-programs/courses,301,/programs-admission,fallback,"program path duplicated under a department; target /programs-admission/courses not built yet, sending to /programs-admission"
+/explore-our-college/departments/department-computer-science/academics-programs/courses,identity,,served,this build serves the same path
 /explore-our-college/departments/department-computer-science/academics-programs/graduate-programs,301,/programs-admission/graduate-programs,rewrite,program path duplicated under a department
 /explore-our-college/departments/department-computer-science/academics-programs/undergraduate-programs,301,/programs-admission/undergraduate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-computer-science/faculty-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/areas-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/brief-introduction-dna-nanotechnology,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/people,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/publications,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/research-areas,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/research-opportunities,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/resources,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/ai-innovation-lab,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/computational-informatics-laboratory,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/computational-informatics-laboratory/publications,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-computer-science/news-events,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/about-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/advisory-council,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/contact-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/message-chair,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/departments/department-computer-science/faculty-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/areas-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/brief-introduction-dna-nanotechnology,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/people,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/publications,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/research-areas,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/research-opportunities,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/resources,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/ai-innovation-lab,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/computational-informatics-laboratory,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/computational-informatics-laboratory/publications,identity,,served,this build serves the same path
+/explore-our-college/departments/department-computer-science/news-events,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/about-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/advisory-council,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/contact-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/message-chair,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs,identity,,served,this build serves the same path
 /explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/certificate-programs,301,/programs-admission/certificate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/courses,301,/programs-admission,fallback,"program path duplicated under a department; target /programs-admission/courses not built yet, sending to /programs-admission"
-/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/courses/graduate-courses-topic,301,/programs-admission,fallback,"program path duplicated under a department; target /programs-admission/courses/graduate-courses-topic not built yet, sending to /programs-admission"
+/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/courses,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/courses/graduate-courses-topic,identity,,served,this build serves the same path
 /explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/graduate-programs,301,/programs-admission/graduate-programs,rewrite,program path duplicated under a department
 /explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/undergraduate-programs,301,/programs-admission/undergraduate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/areas-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories/multimodal-artificial-intelligence-laboratory,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories/signal-and-imaging-processing-laboratory,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-electrical-and-computer-engineering/news-events,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/about-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/about-us/advisory-council,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/about-us/contact-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/about-us/message-chair,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/academics-programs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/academics-programs/courses,301,/programs-admission,fallback,"program path duplicated under a department; target /programs-admission/courses not built yet, sending to /programs-admission"
+/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/areas-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories/multimodal-artificial-intelligence-laboratory,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories/signal-and-imaging-processing-laboratory,identity,,served,this build serves the same path
+/explore-our-college/departments/department-electrical-and-computer-engineering/news-events,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/about-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/about-us/advisory-council,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/about-us/contact-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/about-us/message-chair,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/academics-programs,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/academics-programs/courses,identity,,served,this build serves the same path
 /explore-our-college/departments/department-mechanical-engineering/academics-programs/graduate-programs,301,/programs-admission/graduate-programs,rewrite,program path duplicated under a department
 /explore-our-college/departments/department-mechanical-engineering/academics-programs/undergraduate-programs,301,/programs-admission/undergraduate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-mechanical-engineering/faculty-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/faculty-research/acoustics-and-wave-propagation,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/faculty-research/areas-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-mechanical-engineering/news-events,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/about-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/about-us/contact-us,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/about-us/message-chair,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/academics-programs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/academics-programs/courses,301,/programs-admission,fallback,"program path duplicated under a department; target /programs-admission/courses not built yet, sending to /programs-admission"
+/explore-our-college/departments/department-mechanical-engineering/faculty-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/faculty-research/acoustics-and-wave-propagation,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/faculty-research/areas-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-mechanical-engineering/news-events,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/about-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/about-us/contact-us,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/about-us/message-chair,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/academics-programs,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/academics-programs/courses,identity,,served,this build serves the same path
 /explore-our-college/departments/department-physics/academics-programs/graduate-programs,301,/programs-admission/graduate-programs,rewrite,program path duplicated under a department
 /explore-our-college/departments/department-physics/academics-programs/undergraduate-programs,301,/programs-admission/undergraduate-programs,rewrite,program path duplicated under a department
-/explore-our-college/departments/department-physics/faculty-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/areas-research,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/areas-research/research-opportunities,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/courses-nuclear-physics,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/current-projects-nuclear-physics-group,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/faculty-staff-and-student-directory,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/faculty-staff-and-student-directory/dr-seiji-yashiro,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/join-our-group,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/resources,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/solar-physics-group,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/courses-solar-physics,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/current-projects,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/faculty-staff-and-student-directory,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/faculty-staff-and-student-directory/solar-physics-group-faculty-staff-profiles,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/resources-solar-physics-group,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/news-events,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/departments/department-physics/news-events/colloquia-lectures,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/facilities-locations,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/facilities-locations/campus-locations-programs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/facilities-locations/campus-locations-programs/fort-belvoir-night-vision-and-electronic-sensors-directorate,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/facilities-locations/campus-locations-programs/naval-surface-warfare-center-carderock-division,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/facilities-locations/campus-locations-programs/navsea-partnership,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/facilities-locations/campus-locations-programs/newport-news-shipbuilding-huntington-ingalls-industries,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/facilities-locations/fabrication-services,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/mission-vision,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/departments/department-physics/faculty-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/areas-research,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/areas-research/research-opportunities,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/courses-nuclear-physics,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/current-projects-nuclear-physics-group,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/faculty-staff-and-student-directory,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/faculty-staff-and-student-directory/dr-seiji-yashiro,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/join-our-group,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/resources,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/solar-physics-group,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/courses-solar-physics,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/current-projects,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/faculty-staff-and-student-directory,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/faculty-staff-and-student-directory/solar-physics-group-faculty-staff-profiles,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/resources-solar-physics-group,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/news-events,identity,,served,this build serves the same path
+/explore-our-college/departments/department-physics/news-events/colloquia-lectures,identity,,served,this build serves the same path
+/explore-our-college/facilities-locations,identity,,served,this build serves the same path
+/explore-our-college/facilities-locations/campus-locations-programs,identity,,served,this build serves the same path
+/explore-our-college/facilities-locations/campus-locations-programs/fort-belvoir-night-vision-and-electronic-sensors-directorate,identity,,served,this build serves the same path
+/explore-our-college/facilities-locations/campus-locations-programs/naval-surface-warfare-center-carderock-division,identity,,served,this build serves the same path
+/explore-our-college/facilities-locations/campus-locations-programs/navsea-partnership,identity,,served,this build serves the same path
+/explore-our-college/facilities-locations/campus-locations-programs/newport-news-shipbuilding-huntington-ingalls-industries,identity,,served,this build serves the same path
+/explore-our-college/facilities-locations/fabrication-services,identity,,served,this build serves the same path
+/explore-our-college/mission-vision,identity,,served,this build serves the same path
 /explore-our-college/mission-vision/deans-welcome,identity,,served,this build serves the same path
-/explore-our-college/mission-vision/mission-statement-goals,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/grand-challenges-scholars-program,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/senior-design-capstone-project,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-i-abstracts,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-ii-abstracts,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-iii-abstracts,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/student-organizations-projects-service,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-experience-special-programs/study-abroad,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/annemarie-donachie,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/helen-mcdaniel,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/julia-schlottmann,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/louis-nwuha,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/madison-hughes,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/nathan-lovell,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/alexander-ferrari,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/benjamin-riesett,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/chloe-lockwood,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/emily-bowman,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/laney-schulz,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/maria-hargrave,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/meghan-murray,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/michael-tyszko,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/morgan-trechter,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/nick-delucia,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/pauline-oteyza,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/robert-lemanski,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/explore-our-college/student-success/student-stories/previous-stories/stephen-cypher,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/faculty-staff,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
-/faculty-staff/fabrication-services-request-faculty-staff,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/explore-our-college/mission-vision/mission-statement-goals,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/grand-challenges-scholars-program,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/senior-design-capstone-project,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-i-abstracts,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-ii-abstracts,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-iii-abstracts,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/student-organizations-projects-service,identity,,served,this build serves the same path
+/explore-our-college/student-experience-special-programs/study-abroad,identity,,served,this build serves the same path
+/explore-our-college/student-success,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/annemarie-donachie,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/helen-mcdaniel,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/julia-schlottmann,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/louis-nwuha,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/madison-hughes,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/nathan-lovell,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/alexander-ferrari,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/benjamin-riesett,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/chloe-lockwood,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/emily-bowman,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/laney-schulz,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/maria-hargrave,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/meghan-murray,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/michael-tyszko,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/morgan-trechter,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/nick-delucia,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/pauline-oteyza,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/robert-lemanski,identity,,served,this build serves the same path
+/explore-our-college/student-success/student-stories/previous-stories/stephen-cypher,identity,,served,this build serves the same path
+/faculty-staff,identity,,served,this build serves the same path
+/faculty-staff/fabrication-services-request-faculty-staff,identity,,served,this build serves the same path
 /homepage,301,/,rewrite,duplicate of the homepage in the old sitemap
 /programs-admission,identity,,served,this build serves the same path
 /programs-admission/certificate-programs,identity,,served,this build serves the same path
-/programs-admission/certificate-programs/acoustics-certificate,301,/programs-admission/certificate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/certificate-programs/additive-manufacturing-professional-certificate,301,/programs-admission/certificate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/certificate-programs/data-analytics-professional-certificate,301,/programs-admission/certificate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/certificate-programs/acoustics-certificate,identity,,served,this build serves the same path
+/programs-admission/certificate-programs/additive-manufacturing-professional-certificate,identity,,served,this build serves the same path
+/programs-admission/certificate-programs/data-analytics-professional-certificate,identity,,served,this build serves the same path
 /programs-admission/certificate-programs/engineering-management-professional-certificate,identity,,served,this build serves the same path
-/programs-admission/certificate-programs/management-information-technology-professional-certificate,301,/programs-admission/certificate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/certificate-programs/program-management-professional-certificate,301,/programs-admission/certificate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/certificate-programs/systems-engineering-professional-certificate,301,/programs-admission/certificate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/engineering-new-frontiers-institute,301,/programs-admission,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/certificate-programs/management-information-technology-professional-certificate,identity,,served,this build serves the same path
+/programs-admission/certificate-programs/program-management-professional-certificate,identity,,served,this build serves the same path
+/programs-admission/certificate-programs/systems-engineering-professional-certificate,identity,,served,this build serves the same path
+/programs-admission/engineering-new-frontiers-institute,identity,,served,this build serves the same path
 /programs-admission/graduate-programs,identity,,served,this build serves the same path
-/programs-admission/graduate-programs/applied-physics-and-nanotechnology-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/applied-physics-and-nanotechnology-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/applied-space-weather-research-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/graduate-programs/applied-physics-and-nanotechnology-ms,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/applied-physics-and-nanotechnology-phd,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/applied-space-weather-research-ms,identity,,served,this build serves the same path
 /programs-admission/graduate-programs/artificial-intelligence-ms,identity,,served,this build serves the same path
-/programs-admission/graduate-programs/biomedical-engineering-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/biomedical-engineering-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/graduate-programs/biomedical-engineering-ms,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/biomedical-engineering-phd,identity,,served,this build serves the same path
 /programs-admission/graduate-programs/civil-engineering-ms,identity,,served,this build serves the same path
-/programs-admission/graduate-programs/civil-engineering-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/computer-science-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/computer-science-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/graduate-programs/civil-engineering-phd,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/computer-science-ms,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/computer-science-phd,identity,,served,this build serves the same path
 /programs-admission/graduate-programs/data-analytics-ms,identity,,served,this build serves the same path
-/programs-admission/graduate-programs/electrical-engineering-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/electrical-engineering-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/graduate-programs/electrical-engineering-ms,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/electrical-engineering-phd,identity,,served,this build serves the same path
 /programs-admission/graduate-programs/engineering-management-ms,identity,,served,this build serves the same path
-/programs-admission/graduate-programs/environmental-engineering-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/environmental-engineering-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/mechanical-engineering-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/mechanical-engineering-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/physics-ms,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/graduate-programs/physics-phd,301,/programs-admission/graduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/graduate-programs/environmental-engineering-ms,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/environmental-engineering-phd,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/mechanical-engineering-ms,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/mechanical-engineering-phd,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/physics-ms,identity,,served,this build serves the same path
+/programs-admission/graduate-programs/physics-phd,identity,,served,this build serves the same path
 /programs-admission/how-apply-transfers,identity,,served,this build serves the same path
-/programs-admission/how-apply-transfers/accelerated-masters-program,301,/programs-admission/how-apply-transfers,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/how-apply-transfers/graduate-programs-additional-details,301,/programs-admission/how-apply-transfers,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/how-apply-transfers/transfer-information,301,/programs-admission/how-apply-transfers,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/how-apply-transfers/transfer-information/domestic-transfer-programs,301,/programs-admission/how-apply-transfers,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/how-apply-transfers/transfer-information/international-transfer-programs,301,/programs-admission/how-apply-transfers,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/how-apply-transfers/accelerated-masters-program,identity,,served,this build serves the same path
+/programs-admission/how-apply-transfers/graduate-programs-additional-details,identity,,served,this build serves the same path
+/programs-admission/how-apply-transfers/transfer-information,identity,,served,this build serves the same path
+/programs-admission/how-apply-transfers/transfer-information/domestic-transfer-programs,identity,,served,this build serves the same path
+/programs-admission/how-apply-transfers/transfer-information/international-transfer-programs,identity,,served,this build serves the same path
 /programs-admission/request-information,identity,,served,this build serves the same path
-/programs-admission/scholarships-aid,301,/programs-admission,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/scholarships-aid/fellowship-opportunities,301,/programs-admission,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/scholarships-aid/graduate-scholarships,301,/programs-admission,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/scholarships-aid/undergraduate-scholarships,301,/programs-admission,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/scholarships-aid,identity,,served,this build serves the same path
+/programs-admission/scholarships-aid/fellowship-opportunities,identity,,served,this build serves the same path
+/programs-admission/scholarships-aid/graduate-scholarships,identity,,served,this build serves the same path
+/programs-admission/scholarships-aid/undergraduate-scholarships,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/artificial-intelligence-bs,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/biomedical-engineering-bbe,identity,,served,this build serves the same path
-/programs-admission/undergraduate-programs/biomedical-engineering-bbe/enrollment-and-graduation-data,301,/programs-admission/undergraduate-programs/biomedical-engineering-bbe,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/undergraduate-programs/biomedical-engineering-bbe/enrollment-and-graduation-data,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/chemical-physics-bs,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/civil-engineering-bce,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/computer-science-bs,identity,,served,this build serves the same path
-/programs-admission/undergraduate-programs/dual-degree-architecture-and-engineering,301,/programs-admission/undergraduate-programs,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/undergraduate-programs/dual-degree-architecture-and-engineering,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/electrical-and-computer-engineering-bece,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/environmental-engineering-bs,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/mechanical-engineering-bme,identity,,served,this build serves the same path
-/programs-admission/undergraduate-programs/mechanical-engineering-bme/student-outcomes-and-enrollment-and-graduation-data,301,/programs-admission/undergraduate-programs/mechanical-engineering-bme,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/undergraduate-programs/mechanical-engineering-bme/student-outcomes-and-enrollment-and-graduation-data,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/minors,identity,,served,this build serves the same path
-/programs-admission/undergraduate-programs/minors/applied-space-weather-research-minor,301,/programs-admission/undergraduate-programs/minors,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/undergraduate-programs/minors/artificial-intelligence-minor,301,/programs-admission/undergraduate-programs/minors,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/undergraduate-programs/minors/computer-science-minor,301,/programs-admission/undergraduate-programs/minors,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/undergraduate-programs/minors/data-analytics-minor,301,/programs-admission/undergraduate-programs/minors,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/undergraduate-programs/minors/neuroscience-minor,301,/programs-admission/undergraduate-programs/minors,fallback,"page not rebuilt yet, sending to the nearest served section"
-/programs-admission/undergraduate-programs/minors/physics-minor,301,/programs-admission/undergraduate-programs/minors,fallback,"page not rebuilt yet, sending to the nearest served section"
+/programs-admission/undergraduate-programs/minors/applied-space-weather-research-minor,identity,,served,this build serves the same path
+/programs-admission/undergraduate-programs/minors/artificial-intelligence-minor,identity,,served,this build serves the same path
+/programs-admission/undergraduate-programs/minors/computer-science-minor,identity,,served,this build serves the same path
+/programs-admission/undergraduate-programs/minors/data-analytics-minor,identity,,served,this build serves the same path
+/programs-admission/undergraduate-programs/minors/neuroscience-minor,identity,,served,this build serves the same path
+/programs-admission/undergraduate-programs/minors/physics-minor,identity,,served,this build serves the same path
 /programs-admission/undergraduate-programs/physics-bs,identity,,served,this build serves the same path
 /programs-admission/visit,identity,,served,this build serves the same path
-/search,301,/,fallback,"page not rebuilt yet, sending to the nearest served section"
+/search,identity,,served,this build serves the same path

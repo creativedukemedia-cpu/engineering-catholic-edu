@@ -1,39 +1,1855 @@
 {
-  "routes": [
-    { "path": "/", "title": "Home" },
-    { "path": "/programs-admission", "title": "Programs and Admission" },
-    { "path": "/programs-admission/undergraduate-programs", "title": "Undergraduate Programs" },
-    { "path": "/programs-admission/undergraduate-programs/artificial-intelligence-bs", "title": "AI (BSAI)" },
-    { "path": "/programs-admission/undergraduate-programs/biomedical-engineering-bbe", "title": "Biomedical Engineering (BBE)" },
-    { "path": "/programs-admission/undergraduate-programs/chemical-physics-bs", "title": "Chemical Physics (BS)" },
-    { "path": "/programs-admission/undergraduate-programs/civil-engineering-bce", "title": "Civil Engineering (BCE)" },
-    { "path": "/programs-admission/undergraduate-programs/computer-science-bs", "title": "Computer Science (BSCS)" },
-    { "path": "/programs-admission/undergraduate-programs/electrical-and-computer-engineering-bece", "title": "Electrical and Computer Engineering (BECE)" },
-    { "path": "/programs-admission/undergraduate-programs/environmental-engineering-bs", "title": "Environmental Engineering (BS)" },
-    { "path": "/programs-admission/undergraduate-programs/mechanical-engineering-bme", "title": "Mechanical Engineering (BME)" },
-    { "path": "/programs-admission/undergraduate-programs/physics-bs", "title": "Physics (BS)" },
-    { "path": "/programs-admission/undergraduate-programs/minors", "title": "Minors" },
-    { "path": "/programs-admission/graduate-programs", "title": "Graduate Programs" },
-    { "path": "/programs-admission/graduate-programs/artificial-intelligence-ms", "title": "AI (MS)" },
-    { "path": "/programs-admission/graduate-programs/civil-engineering-ms", "title": "Civil Engineering (MS)" },
-    { "path": "/programs-admission/graduate-programs/data-analytics-ms", "title": "Data Analytics (MS)" },
-    { "path": "/programs-admission/graduate-programs/engineering-management-ms", "title": "Engineering Management (MS)" },
-    { "path": "/programs-admission/certificate-programs", "title": "Certificate Programs" },
-    { "path": "/programs-admission/certificate-programs/engineering-management-professional-certificate", "title": "Engineering Management Professional Certificate" },
-    { "path": "/programs-admission/how-apply-transfers", "title": "How to Apply and Transfers" },
-    { "path": "/programs-admission/request-information", "title": "Request Information" },
-    { "path": "/programs-admission/visit", "title": "Visit" },
-    { "path": "/explore-our-college/mission-vision/deans-welcome", "title": "Dean's Welcome" },
-    { "path": "/explore-our-college/centers-institutes-research", "title": "Centers, Institutes and Research" },
-    { "path": "/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr", "title": "Center for Applied Biomechanics and Rehabilitation Research" },
-    { "path": "/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs", "title": "Institute for Astrophysics and Computational Sciences" },
-    { "path": "/explore-our-college/centers-institutes-research/phaser", "title": "PHaSER" },
-    { "path": "/explore-our-college/centers-institutes-research/space-weather-center", "title": "Space Weather Center" },
-    { "path": "/explore-our-college/departments/department-civil-and-environmental-engineering", "title": "Civil and Environmental Engineering" },
-    { "path": "/connect-contact/news-events", "title": "News and Events" },
-    { "path": "/connect-contact/contact-us", "title": "Contact Us" },
-    { "path": "/connect-contact/faculty-directory/chuan-fu-lin", "title": "Faculty: Chuan-Fu Lin" },
-    { "path": "/about", "title": "About" },
-    { "path": "/about/accreditation", "title": "Accreditation" }
-  ]
+ "routes": [
+  {
+   "path": "/",
+   "title": "Homepage"
+  },
+  {
+   "path": "/about",
+   "title": "About"
+  },
+  {
+   "path": "/about/accreditation",
+   "title": "Accreditation"
+  },
+  {
+   "path": "/about/board-visitors",
+   "title": "Board of Visitors"
+  },
+  {
+   "path": "/about/employment",
+   "title": "Employment"
+  },
+  {
+   "path": "/about/ethics-integrity",
+   "title": "Ethics & Integrity"
+  },
+  {
+   "path": "/about/stats-history",
+   "title": "Stats & History"
+  },
+  {
+   "path": "/about/stats-history/our-history",
+   "title": "Our History"
+  },
+  {
+   "path": "/connect-contact",
+   "title": "Connect & Contact"
+  },
+  {
+   "path": "/connect-contact/alumni-giving",
+   "title": "Alumni & Giving"
+  },
+  {
+   "path": "/connect-contact/alumni-giving/alumni-awards",
+   "title": "Alumni Awards"
+  },
+  {
+   "path": "/connect-contact/alumni-giving/sponsorship-and-mentorship-senior-design-day",
+   "title": "Sponsorship and Mentorship: Senior Design Day"
+  },
+  {
+   "path": "/connect-contact/alumni-giving/ways-give",
+   "title": "Ways to Give"
+  },
+  {
+   "path": "/connect-contact/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/connect-contact/faculty-directory",
+   "title": "Faculty Directory"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/aaron-dominguez",
+   "title": "Aaron Dominguez"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/abhijit-sarkar",
+   "title": "Abhijit Sarkar"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/alessandro-vato",
+   "title": "Alessandro Vato"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/andrew-wyner",
+   "title": "Andrew Wyner"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/arash-massoudieh",
+   "title": "Arash Massoudieh"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/bidhan-c-bandyopadhyay",
+   "title": "Bidhan C. Bandyopadhyay"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/biprodas-dutta",
+   "title": "Biprodas Dutta"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/branko-s-bokan",
+   "title": "Branko S. Bokan"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/bruno-guidio",
+   "title": "Bruno Guidio"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/carlos-yero",
+   "title": "Carlos Yero"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/chaofan-sun",
+   "title": "Chaofan Sun"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/charles-c-nguyen",
+   "title": "Charles C. Nguyen"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/christian-l-bomela",
+   "title": "Christian L. Bomela"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/christopher-raub",
+   "title": "Christopher Raub"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/chuan-fu-lin",
+   "title": "Chuan-Fu Lin"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/daniel-murphy",
+   "title": "Daniel Murphy"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/daniel-sierra-sosa",
+   "title": "Daniel Sierra-Sosa"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/diego-turo",
+   "title": "Diego Turo"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/dominick-rizk",
+   "title": "Dominick Rizk"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/duilia-f-de-mello",
+   "title": "Duilia F. de Mello"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/gangkai-poh",
+   "title": "Gangkai Poh"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/garfield-s-jones",
+   "title": "Garfield S. Jones"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/george-nehmetallah",
+   "title": "George Nehmetallah"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/gioia-rau",
+   "title": "Gioia Rau"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/gregorio-toscano",
+   "title": "Gregorio Toscano"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/grzegorz-kalicy",
+   "title": "Grzegorz Kalicy"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/gunnar-lucko",
+   "title": "Gunnar Lucko"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/hang-liu",
+   "title": "Hang Liu"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/hanseok-ko",
+   "title": "Hanseok Ko"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/hieu-bui",
+   "title": "Hieu Bui"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/ian-l-pegg",
+   "title": "Ian L. Pegg"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/j-steven-brown",
+   "title": "J. Steven Brown"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/jandro-l-abot",
+   "title": "Jandro L. Abot"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/jason-h-davison",
+   "title": "Jason H. Davison"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/jeffrey-w-herrmann",
+   "title": "Jeffrey W. Herrmann"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/john-philip",
+   "title": "John Philip"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/jose-febres",
+   "title": "Jose Febres"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/joseph-f-vignola",
+   "title": "Joseph F. Vignola"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/lin-ching-chang",
+   "title": "Lin-Ching Chang"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/lorenzo-resca",
+   "title": "Lorenzo Resca"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/lt-col-lawrence-tobin",
+   "title": "Lt. Col. Lawrence Tobin"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/martin-cordiner",
+   "title": "Martin Cordiner"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/matthew-d-sermon",
+   "title": "Matthew D. Sermon"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/matthew-jacobs",
+   "title": "Matthew Jacobs"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/minhee-jun",
+   "title": "Minhee Jun"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/nader-m-namazi",
+   "title": "Nader M. Namazi"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/nicholas-mecholsky",
+   "title": "Nicholas A. Mecholsky"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/otto-wilson-jr",
+   "title": "Otto Wilson, Jr."
+  },
+  {
+   "path": "/connect-contact/faculty-directory/peter-lum",
+   "title": "Peter Lum"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/rachel-bartek",
+   "title": "Rachel Bartek"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/rebecca-kiriazes",
+   "title": "Rebecca Kiriazes"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/richard-c-thompson-jr",
+   "title": "Richard C. Thompson, Jr."
+  },
+  {
+   "path": "/connect-contact/faculty-directory/richard-kelley",
+   "title": "Richard Kelley"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/robert-robinson",
+   "title": "Robert Robinson"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/sang-wook-lee",
+   "title": "Sang Wook Lee"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/santiago-d-solares",
+   "title": "Santiago D. Solares"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/sean-l-ponder",
+   "title": "Sean L. Ponder"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/sergio-picozzi",
+   "title": "Sergio Picozzi"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/shin-shan-yu",
+   "title": "Shin-Shan Yu"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/steve-kraemer",
+   "title": "Steve Kraemer"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/tanja-horn",
+   "title": "Tanja Horn"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/tommy-gardner",
+   "title": "Tommy Gardner"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/tommy-wiklind",
+   "title": "Tommy Wiklind"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/ugo-della-croce",
+   "title": "Ugo Della Croce"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/vadim-uritsky",
+   "title": "Vadim Uritsky"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/xiaolong-luo",
+   "title": "Xiaolong Luo"
+  },
+  {
+   "path": "/connect-contact/faculty-directory/zhaoyang-wang",
+   "title": "Zhaoyang Wang"
+  },
+  {
+   "path": "/connect-contact/leadership-staff",
+   "title": "Leadership & Staff"
+  },
+  {
+   "path": "/connect-contact/news-events",
+   "title": "News & Events"
+  },
+  {
+   "path": "/connect-contact/news-events/all-events",
+   "title": "All Events"
+  },
+  {
+   "path": "/connect-contact/news-events/all-events/meister-fellowship-seminar-2026-dr-ian-l-pegg",
+   "title": "Meister Fellowship Seminar 2026 - Dr. Ian L. Pegg"
+  },
+  {
+   "path": "/connect-contact/news-events/all-events/past-events",
+   "title": "Past Events"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories",
+   "title": "All Stories"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/18th-annual-senior-design-day-showcases-innovation-and-student-achievement",
+   "title": "18th Annual Senior Design Day Showcases Innovation and Student Achievement"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/ai-sensing-research-dr-minhee-jun-featured-ais-2026",
+   "title": "AI Sensing Research from Dr. Minhee Jun Featured at AIS 2026"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/alumni-success-story-achuna-ofonedu",
+   "title": "Alumni Success Story: Achuna Ofonedu"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/archbishop-carroll-high-school-students-complete-another-excellent-semester-school-engineering",
+   "title": "Archbishop Carroll High School Students Complete Another Excellent Semester at t"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/biomedical-engineering-doctoral-alumna-wins-cosmos-club-prize",
+   "title": "Biomedical Engineering Doctoral Alumna Wins Cosmos Club Prize"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/biomedical-engineering-doctoral-student-wins-dcceas-paper-competition",
+   "title": "Biomedical Engineering Doctoral Student Wins DCCEAS Paper Competition"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/building-global-partnerships-engineering-physics-and-computing",
+   "title": "Building Global Partnerships in Engineering, Physics, and Computing"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/can-architecture-influence-brain-catholic-university-research-explores-effects-sacred-spaces",
+   "title": "Can Architecture Influence the Brain? Catholic University Research Explores the "
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/career-development-school-engineering-networking-night-and-informational-interviewing-event",
+   "title": "Career Development at the School of Engineering Networking Night and Information"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/catholic-university-america-announces-abet-accreditation-outcomes",
+   "title": "The Catholic University of America Announces ABET Accreditation Outcomes"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/catholic-university-hosts-60th-annual-greater-washington-dc-junior-science-and-humanities-symposium",
+   "title": "Catholic University Hosts 60th Annual Greater Washington, D.C. Junior Science an"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/catholic-university-joins-prestigious-space-research-consortium",
+   "title": "Catholic University Joins Prestigious Space Research Consortium"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/catholic-university-researcher-offers-new-insight-space-weather",
+   "title": "Catholic University Researcher Offers New Insight Into Space Weather"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/celebrating-innovation-and-leadership-senior-design-night-2026",
+   "title": "Celebrating Innovation and Leadership at Senior Design Night 2026"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/ceo-wells-bullard-connects-engineering-leadership-and-service-common-good",
+   "title": "CEO Wells Bullard Connects Engineering, Leadership, and Service to the Common Go"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-alumni-connecting-inspiring-and-making-impact",
+   "title": "CEPC Alumni: Connecting, Inspiring, and Making an Impact"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-faculty-awarded-university-innovation-fund-grants",
+   "title": "CEPC Faculty Awarded University Innovation Fund Grants"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-faculty-secure-over-48-million-new-research-funding",
+   "title": "CEPC Faculty Secure Over $4.8 Million in New Research Funding"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-hosts-coffee-careers-networking-breakfast",
+   "title": "CEPC Hosts Coffee & Careers Networking Breakfast"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-hosts-indo-pacific-delegation-ai-discussions",
+   "title": "CEPC Hosts Indo-Pacific Delegation for AI Discussions"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-professor-chairs-2025-digital-holography-and-3d-imaging-conference",
+   "title": "CEPC Professor Chairs 2025 Digital Holography and 3D Imaging Conference"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-students-support-nasas-artemis-ii-mission",
+   "title": "CEPC Students Support NASA\u2019s Artemis II Mission"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/cepc-students-tour-northrop-grummans-bwi-campus",
+   "title": "CEPC Students Tour Northrop Grumman\u2019s BWI Campus"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/civil-and-environmental-engineering-students-compete-2024-mid-atlantic-west-asce-student-symposium",
+   "title": "Civil and Environmental Engineering Students Compete at the 2024 Mid-Atlantic We"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/civil-and-environmental-engineering-students-compete-asce-student-symposium",
+   "title": "Civil and Environmental Engineering Students Compete at ASCE Student Symposium"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/college-engineering-physics-and-computing-receives-227500-innovation-fund-awards",
+   "title": "College of Engineering, Physics, and Computing Receives $227, 500 in Innovation "
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/computer-science-department-launches-new-ai-innovation-lab",
+   "title": "Computer Science Department Launches New AI Innovation Lab"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/computer-science-student-receives-prestigious-knights-columbus-fellowship",
+   "title": "Computer Science Student Receives Prestigious Knights of Columbus Fellowship"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/daniel-ragsdale-office-national-cyber-director-white-house-speaks-leadership",
+   "title": "Daniel Ragsdale from the Office of the National Cyber Director at The White Hous"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/data-analytics-alumnus-develops-application-urban-navigation",
+   "title": "Data Analytics Alumnus Develops Application for Urban Navigation"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/department-biomedical-engineering-hosts-fall-2024-speaker-series",
+   "title": "Department of Biomedical Engineering Hosts Fall 2024 Speaker Series"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/doctoral-student-receives-prestigious-knights-columbus-fellowship",
+   "title": "Doctoral Student Receives Prestigious Knights of Columbus Fellowship"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-arash-massoudieh-awarded-over-300000-dc-water-grants-environmental-engineering-research",
+   "title": "Dr. Arash Massoudieh Awarded Over $300, 000 in D.C. Water Grants for Environment"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-arash-massoudieh-receives-grant-dc-water-and-sewer-authority",
+   "title": "Dr. Arash Massoudieh Receives Grant from D.C. Water and Sewer Authority"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-arash-massoudieh-receives-grant-los-angeles-county-public-works",
+   "title": "Dr. Arash Massoudieh Receives Grant from Los Angeles County Public Works"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-bismark-agbelie-receives-grant-indiana-department-transportation",
+   "title": "Dr. Bismark Agbelie Receives Grant from the Indiana Department of Transportation"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-charles-nguyen-brings-ai-expertise-international-conference-taiwan",
+   "title": "Dr. Charles Nguyen Brings AI Expertise to International Conference in Taiwan"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-diego-turo-receives-grant-united-states-office-naval-research",
+   "title": "Dr. Diego Turo Receives Grant from the United States Office of Naval Research"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-dominick-rizk-receives-2024-orau-ralph-e-powe-junior-faculty-enhancement-award",
+   "title": "Dr. Dominick Rizk Receives 2024 ORAU Ralph E. Powe Junior Faculty Enhancement Aw"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-duilia-de-mello-receives-inaugural-iau-stem-ambassador-award",
+   "title": "Dr. Duilia de Mello Receives Inaugural IAU STEM Ambassador Award"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-george-nehmetallah-receives-nasa-grant",
+   "title": "Dr. George Nehmetallah Receives NASA Grant"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-hang-liu-elevated-fellow-institute-electrical-and-electronics-engineers-ieee",
+   "title": "Dr. Hang Liu Elevated to Fellow at the Institute of Electrical and Electronics E"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-jason-davison-receives-grant-dc-department-energy-and-environment",
+   "title": "Dr. Jason Davison Receives Grant from the D.C. Department of Energy and Environm"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-rebecca-kiriazes-receives-grant-partners-americas-foundation",
+   "title": "Dr. Rebecca Kiriazes Receives Grant from Partners of the Americas Foundation"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-sang-wook-lee-secures-nih-grant-study-impact-robotic-training-stroke-survivor-rehabilitation",
+   "title": "Dr. Sang Wook Lee Secures NIH Grant to Study the Impact of Robotic Training on S"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/dr-sen-nieh-retires-after-40-years-catholic-university",
+   "title": "Dr. Sen Nieh Retires after 40 Years at Catholic University"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/driving-trustworthy-ai-dr-minhee-jun-presents-nist-research-summit",
+   "title": "Driving Trustworthy AI: Dr. Minhee Jun Presents at NIST Research Summit"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/electrical-engineering-and-computer-science-professor-presented-nasas-group-achievement-award",
+   "title": "Electrical Engineering and Computer Science Professor Presented NASA\u2019s Group Ach"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/elijah-feret-shares-his-experience-student-school-engineering",
+   "title": "Elijah Feret Shares his Experience as a Student in the School of Engineering"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/engineering-doctoral-student-wins-us-naval-research-lab-award",
+   "title": "Engineering Doctoral Student Wins U.S. Naval Research Lab Award"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/engineering-researchers-awarded-nih-grant-innovative-tissue-chip-research",
+   "title": "Engineering Researchers Awarded NIH Grant for Innovative Tissue Chip Research"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/engineering-students-bridge-cultures-and-advance-climate-solutions-mexico",
+   "title": "Engineering Students Bridge Cultures and Advance Climate Solutions in Mexico"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/expanding-opportunities-college-engineering-physics-and-computing-launches-internship-program",
+   "title": "Expanding Opportunities: College of Engineering, Physics, and Computing Launches"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/exploring-metro-operations-cepc-students-visit-wmata-command-center",
+   "title": "Exploring Metro Operations: CEPC Students Visit WMATA Command Center"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/faculty-across-engineering-physics-and-computing-unite-collaborative-research-workshop",
+   "title": "Faculty Across Engineering, Physics, and Computing Unite for Collaborative Resea"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/faculty-secure-300k-doe-grant-advance-ai-driven-scientific-discovery",
+   "title": "Faculty Secure $300K DOE Grant to Advance AI-Driven Scientific Discovery"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/faculty-spotlight-diego-turo-phd-professor-researcher-athlete",
+   "title": "Faculty Spotlight: Diego Turo, Ph.D. - Professor, Researcher, Athlete"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/freshman-convocation-officially-welcomes-class-2030",
+   "title": "Freshman Convocation Officially Welcomes the Class of 2030"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/hanseok-ko-installed-newton-bennett-endowed-chair-engineering",
+   "title": "Hanseok Ko Installed as Newton-Bennett Endowed Chair of Engineering"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/hanseok-ko-showcases-ai-innovations-international-ieee-conference",
+   "title": "Hanseok Ko Showcases AI Innovations at International IEEE Conference"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/hep-group-advances-research-us-cms-annual-meeting",
+   "title": "HEP Group Advances Research at U.S. CMS Annual Meeting"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/hoefler-endowed-scholarship-pledged-support-school-engineering-students",
+   "title": "Hoefler Endowed Scholarship Pledged to Support School of Engineering Students"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/inspiring-future-engineers-latinas-leading-tomorrow-visit-campus",
+   "title": "Inspiring Future Engineers: Latinas Leading Tomorrow Visit Campus"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/ireland-innovation-amy-papas-engineering-journey",
+   "title": "From Ireland to Innovation: Amy Papa\u2019s Engineering Journey"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/j-steven-brown-appointed-dean-college-engineering-physics-and-computing",
+   "title": "J. Steven Brown Appointed Dean of the College of Engineering, Physics, and Compu"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/j-steven-brown-phd-appointed-interim-dean-school-engineering",
+   "title": "J. Steven Brown, Ph.D., Appointed Interim Dean of the School of Engineering"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/joe-logue-bee-87-leading-innovation-national-security-technology",
+   "title": "Joe Logue, B.E.E. \u201987: Leading Innovation in National Security Technology"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/maria-erquiaga-shares-her-experience-student-school-engineering",
+   "title": "Maria Erquiaga Shares her Experience as a Student in the School of Engineering"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/mechanical-engineering-faculty-receive-nih-and-ithc-grants-sepsis-research",
+   "title": "Mechanical Engineering Faculty Receive NIH and ITHC Grants for Sepsis Research"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/mechanical-engineering-professor-receives-grant-through-efellows-program",
+   "title": "Mechanical Engineering Professor Receives Grant Through eFellows Program"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/mechanical-engineering-seniors-win-nasa-research-competition",
+   "title": "Mechanical Engineering Seniors Win NASA Research Competition"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/microplastics-research-project-surpasses-1-million-funding",
+   "title": "Microplastics Research Project Surpasses $1 Million in Funding"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/multimodal-ai-lab-wins-global-recognition-safe-challenge",
+   "title": "Multimodal AI Lab Wins Global Recognition at SAFE Challenge"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/new-immunoassay-method-integrates-dna-circuits-and-single-domain-antibodies",
+   "title": "New Immunoassay Method Integrates DNA Circuits and Single Domain Antibodies"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/patent-application-wearable-hand-exoskeleton-developed-dr-peter-lum",
+   "title": "Patent Application for Wearable Hand Exoskeleton Developed by Dr. Peter Lum"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/physics-doctoral-student-receives-american-ceramic-society-award-materials-science-research",
+   "title": "Physics Doctoral Student Receives American Ceramic Society Award for Materials S"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/professor-awarded-patent-innovative-ai-driven-microscopy-technology",
+   "title": "Professor Awarded Patent for Innovative AI-Driven Microscopy Technology"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/professor-robert-meister-distinguished-faculty-fellowship-awarded-dr-hang-liu",
+   "title": "Professor Robert Meister Distinguished Faculty Fellowship Awarded to Dr. Hang Li"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/recent-alumni-return-career-exploration-fridays",
+   "title": "Recent Alumni Return for Career Exploration Fridays"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/remembering-catholic-universitys-first-tau-beta-pi-president",
+   "title": "Remembering Catholic University\u2019s First Tau Beta Pi President"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/researchers-school-engineering-develop-novel-tissue-chip-study-oral-mucositis",
+   "title": "Researchers at the School of Engineering Develop Novel Tissue Chip to Study Oral"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-awarded-nsf-grant-fund-engineering-opportunities-underrepresented-students",
+   "title": "School of Engineering Awarded NSF Grant to Fund Engineering Opportunities for Un"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-celebrates-2023-hard-hat-ceremony-senior-design-poster-exhibition",
+   "title": "School of Engineering Celebrates the 2023 Hard Hat Ceremony & Senior Design Post"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-celebrates-installation-dr-jeffrey-herrmann-st-abbo-fleury-endowed-chair-engineering",
+   "title": "School of Engineering Celebrates the Installation of Dr. Jeffrey Herrmann as the"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-doctoral-student-wins-dc-council-engineering-and-architectural-societies-annual-paper-competition",
+   "title": "School of Engineering Doctoral Student Wins D.C. Council of Engineering and Arch"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-faculty-member-serves-program-chair-optical-society-america-conference-summer-2024",
+   "title": "School of Engineering Faculty Member Serves as Program Chair for Optical Society"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-hosts-16th-annual-senior-design-day-class-2024",
+   "title": "School of Engineering Hosts the 16th Annual Senior Design Day for the Class of 2"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-hosts-fourth-annual-hard-hat-ceremony-and-senior-design-poster-exhibition",
+   "title": "School of Engineering Hosts Fourth Annual Hard Hat Ceremony and Senior Design Po"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-hosts-high-school-stem-symposium-second-year",
+   "title": "School of Engineering Hosts High School STEM Symposium for Second Year"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-hosts-spring-2024-senior-design-night",
+   "title": "School of Engineering Hosts the Spring 2024 Senior Design Night"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-hosts-third-annual-senior-design-night",
+   "title": "School of Engineering Hosts Third Annual Senior Design Night"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-launches-da-vinci-scholars-high-school-summer-research-program",
+   "title": "School of Engineering Launches Da Vinci Scholars High School Summer Research Pro"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-networking-night-and-informational-interviewing-event",
+   "title": "School of Engineering Networking Night and Informational Interviewing Event"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-offers-artificial-intelligence-workshops",
+   "title": "School of Engineering Offers Artificial Intelligence Workshops"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-organizes-first-pi-day-run",
+   "title": "School of Engineering Organizes First Pi Day Run"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-professor-receives-grant-department-energy-develop-high-energy-batteries-and-unveil-underlying-science",
+   "title": "School of Engineering Professor Receives a Grant from the Department of Energy t"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-senior-wins-nasa-research-competition",
+   "title": "School of Engineering Senior Wins NASA Research Competition"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-student-athletes-compete-2024-division-iii-outdoor-track-and-field-national-championship",
+   "title": "School of Engineering Student-Athletes Compete at the 2024 Division III Outdoor "
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-students-and-faculty-win-awards-university-research-day-2024",
+   "title": "School of Engineering Students and Faculty Win Awards at University Research Day"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/school-engineering-unveils-new-student-lounge",
+   "title": "School of Engineering Unveils New Student Lounge"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/shpe-chapter-president-wins-first-place-nila-presidents-summit-competition",
+   "title": "SHPE Chapter President Wins First Place at NILA Presidents Summit Competition"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/student-ai-research-earns-international-recognition",
+   "title": "Student AI Research Earns International Recognition"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/student-spotlight-serena-tewoldeberhan",
+   "title": "Student Spotlight: Serena Tewoldeberhan"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/tanja-horn-awarded-750000-nsf-grant-advance-nuclear-physics-research-and-ai-innovation",
+   "title": "Tanja Horn Awarded $750, 000 NSF Grant to Advance Nuclear Physics Research and A"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/two-school-engineering-seniors-accepted-naval-flight-school",
+   "title": "Two School of Engineering Seniors Accepted Into Naval Flight School"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/university-research-day-showcases-engineering-physics-computing-innovation",
+   "title": "University Research Day Showcases Engineering, Physics, Computing Innovation"
+  },
+  {
+   "path": "/connect-contact/news-events/all-stories/vice-admiral-mel-williams-leadership-award-presented-outstanding-graduate-students",
+   "title": "Vice Admiral Mel Williams Leadership Award Presented to Outstanding Graduate Stu"
+  },
+  {
+   "path": "/current-students",
+   "title": "For Current Students"
+  },
+  {
+   "path": "/current-students/career-resources",
+   "title": "Career Resources"
+  },
+  {
+   "path": "/current-students/career-resources/interviewing-networking-night",
+   "title": "Interviewing & Networking Night"
+  },
+  {
+   "path": "/current-students/course-descriptions",
+   "title": "Course Descriptions"
+  },
+  {
+   "path": "/current-students/course-schedules",
+   "title": "Course Schedules"
+  },
+  {
+   "path": "/current-students/fabrication-services-request-students",
+   "title": "Fabrication Services Request - Students"
+  },
+  {
+   "path": "/current-students/graduate-teaching-and-research-assistantships",
+   "title": "Graduate Teaching and Research Assistantships"
+  },
+  {
+   "path": "/current-students/grand-challenges-scholars-program-details-apply",
+   "title": "Grand Challenges Scholars Program - Details & Apply"
+  },
+  {
+   "path": "/current-students/guidelines-phd-studies",
+   "title": "Guidelines for PhD Studies"
+  },
+  {
+   "path": "/current-students/guidelines-phd-studies/doctoral-dissertation-defense-guidelines",
+   "title": "Doctoral Dissertation Defense Guidelines"
+  },
+  {
+   "path": "/current-students/guidelines-phd-studies/doctoral-dissertation-proposal-guidelines",
+   "title": "Doctoral Dissertation Proposal Guidelines"
+  },
+  {
+   "path": "/current-students/guidelines-phd-studies/doctoral-studies-checklist",
+   "title": "Doctoral Studies Checklist"
+  },
+  {
+   "path": "/current-students/guidelines-phd-studies/ee-dissertation-proposal",
+   "title": "E.E. Dissertation Proposal"
+  },
+  {
+   "path": "/current-students/guidelines-phd-studies/engr-991-directed-study",
+   "title": "ENGR 991 Directed Study"
+  },
+  {
+   "path": "/current-students/guidelines-phd-studies/phd-comprehensive-examination-guidelines",
+   "title": "PhD Comprehensive Examination Guidelines"
+  },
+  {
+   "path": "/current-students/incoming-students",
+   "title": "Incoming Students"
+  },
+  {
+   "path": "/current-students/info-new-undergraduates",
+   "title": "Info for New Undergraduates"
+  },
+  {
+   "path": "/current-students/information-masters-students",
+   "title": "Information for Master\u2019s Students"
+  },
+  {
+   "path": "/current-students/policies-all-students",
+   "title": "Policies for All Students"
+  },
+  {
+   "path": "/current-students/policies-all-students/academic-advising",
+   "title": "Academic Advising"
+  },
+  {
+   "path": "/current-students/policies-all-students/consortium",
+   "title": "Consortium"
+  },
+  {
+   "path": "/current-students/policies-all-students/grades",
+   "title": "Grades"
+  },
+  {
+   "path": "/current-students/policies-all-students/graduation",
+   "title": "Graduation"
+  },
+  {
+   "path": "/current-students/policies-all-students/registration",
+   "title": "Registration"
+  },
+  {
+   "path": "/current-students/policies-graduate-students",
+   "title": "Policies for Graduate Students"
+  },
+  {
+   "path": "/current-students/policies-graduate-students/academic-probation-dismissal",
+   "title": "Academic Probation & Dismissal"
+  },
+  {
+   "path": "/current-students/policies-graduate-students/doctoral-degree-requirements",
+   "title": "Doctoral Degree Requirements"
+  },
+  {
+   "path": "/current-students/policies-graduate-students/graduate-enrollment-regulations",
+   "title": "Graduate Enrollment Regulations"
+  },
+  {
+   "path": "/current-students/policies-graduate-students/masters-degree-requirements",
+   "title": "Master\u2019s Degree Requirements"
+  },
+  {
+   "path": "/current-students/policies-undergraduate-students",
+   "title": "Policies for Undergraduate Students"
+  },
+  {
+   "path": "/current-students/policies-undergraduate-students/academic-standing",
+   "title": "Academic Standing"
+  },
+  {
+   "path": "/current-students/policies-undergraduate-students/curriculum",
+   "title": "Curriculum"
+  },
+  {
+   "path": "/current-students/policies-undergraduate-students/enrollment",
+   "title": "Enrollment"
+  },
+  {
+   "path": "/current-students/policies-undergraduate-students/minors",
+   "title": "Minors"
+  },
+  {
+   "path": "/current-students/policies-undergraduate-students/transfer-credit",
+   "title": "Transfer Credit"
+  },
+  {
+   "path": "/explore-our-college",
+   "title": "Explore Our College"
+  },
+  {
+   "path": "/explore-our-college/academic-resources-special-programs/student-organizations-projects-service/society-women-engineers-constitution",
+   "title": "Society of Women Engineers Constitution"
+  },
+  {
+   "path": "/explore-our-college/career-development",
+   "title": "Career Development"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research",
+   "title": "Centers, Institutes, & Research"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr",
+   "title": "Center for Applied Biomechanics and Rehabilitation Research (CABRR)"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/cabrr-members",
+   "title": "CABRR Members"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/center-applied-biomechanics-and-rehabilitation-research-cabrr/labs-publications-notables",
+   "title": "Labs, Publications, & Notables"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs",
+   "title": "Institute for Astrophysics and Computational Sciences (IACS)"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs/personnel",
+   "title": "Personnel"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/institute-astrophysics-and-computational-sciences-iacs/resources-iacs",
+   "title": "Resources- IACS"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser",
+   "title": "PHaSER"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser/faculty-liaisons",
+   "title": "Faculty Liaisons"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser/our-personnel",
+   "title": "Our Personnel"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser/our-science",
+   "title": "Our Science"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser/phaser-institutions",
+   "title": "PHaSER Institutions"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser/publications",
+   "title": "Publications"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser/researchers",
+   "title": "Researchers"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/phaser/who-we-are",
+   "title": "Who We Are"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center",
+   "title": "Space Weather Center"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/applied-space-weather-research-degrees",
+   "title": "Applied Space Weather Research Degrees"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/current-space-weather",
+   "title": "Current Space Weather"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/members-space-weather-center",
+   "title": "Members of the Space Weather Center"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work",
+   "title": "Our Work"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work/flow-tracking-challenge",
+   "title": "Flow Tracking Challenge"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work/heliocme-heliospheric-cme-events-catalog",
+   "title": "HELIOCME: Heliospheric CME Events catalog"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work/heliophysics-event-lists",
+   "title": "Heliophysics Event Lists"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work/past-events",
+   "title": "Past Events"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work/past-events/first-international-workshop-small-satellites-space-weather-research-forecasting",
+   "title": "First International Workshop on Small Satellites for Space Weather Research & Fo"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work/space-weather-and-sea-animal-strandings",
+   "title": "Space Weather and Sea Animal Strandings"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/our-work/space-weather-and-society",
+   "title": "Space Weather and Society"
+  },
+  {
+   "path": "/explore-our-college/centers-institutes-research/space-weather-center/upcoming-events",
+   "title": "Upcoming Events"
+  },
+  {
+   "path": "/explore-our-college/departments",
+   "title": "Departments"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering",
+   "title": "Department of Biomedical Engineering"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/about-us",
+   "title": "About Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/about-us/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/about-us/employment-opportunities",
+   "title": "Employment Opportunities"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/about-us/message-chair",
+   "title": "Message from the Chair"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/about-us/what-biomedical-engineering",
+   "title": "What is Biomedical Engineering?"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/academics-programs",
+   "title": "Academics & Programs"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/academics-programs/courses",
+   "title": "Courses"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/academics-programs/graduate-programs/registration-and-enrollment-graduate-programs",
+   "title": "Registration and Enrollment for Graduate Programs"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/faculty-research",
+   "title": "Faculty & Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/faculty-research/areas-research",
+   "title": "Areas of Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-biomedical-engineering/news-events",
+   "title": "News & Events"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering",
+   "title": "Department of Civil and Environmental Engineering"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/about-us",
+   "title": "About Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/advisory-council",
+   "title": "Advisory Council"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/about-us/message-chair",
+   "title": "Message from the Chair"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs",
+   "title": "Academics & Programs"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/academics-programs/courses",
+   "title": "Courses"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/faculty-research",
+   "title": "Faculty & Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/faculty-research/areas-research",
+   "title": "Areas of Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-civil-and-environmental-engineering/news-events",
+   "title": "News & Events"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science",
+   "title": "Department of Computer Science"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/about-us",
+   "title": "About Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/about-us/advisory-council",
+   "title": "Advisory Council"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/about-us/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/about-us/message-chair",
+   "title": "Message from the Chair"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/academics-programs",
+   "title": "Academics & Programs"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/academics-programs/courses",
+   "title": "Courses"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research",
+   "title": "Faculty & Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/areas-research",
+   "title": "Areas of Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories",
+   "title": "Research Laboratories"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory",
+   "title": "Advanced Computing Laboratory"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/brief-introduction-dna-nanotechnology",
+   "title": "A Brief Introduction to DNA Nanotechnology"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/people",
+   "title": "People"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/publications",
+   "title": "Publications"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/research-areas",
+   "title": "Research Areas"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/research-opportunities",
+   "title": "Research Opportunities"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/advanced-computing-laboratory/resources",
+   "title": "Resources"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/ai-innovation-lab",
+   "title": "AI Innovation Lab"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/computational-informatics-laboratory",
+   "title": "Computational Informatics Laboratory"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/faculty-research/research-laboratories/computational-informatics-laboratory/publications",
+   "title": "Publications"
+  },
+  {
+   "path": "/explore-our-college/departments/department-computer-science/news-events",
+   "title": "News & Events"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering",
+   "title": "Department of Electrical and Computer Engineering"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/about-us",
+   "title": "About Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/advisory-council",
+   "title": "Advisory Council"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/about-us/message-chair",
+   "title": "Message from the Chair"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs",
+   "title": "Academics & Programs"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/courses",
+   "title": "Courses"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/academics-programs/courses/graduate-courses-topic",
+   "title": "Graduate Courses by Topic"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research",
+   "title": "Faculty & Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/areas-research",
+   "title": "Areas of Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories",
+   "title": "Research Laboratories"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories/multimodal-artificial-intelligence-laboratory",
+   "title": "Multimodal Artificial Intelligence Laboratory"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/faculty-research/research-laboratories/signal-and-imaging-processing-laboratory",
+   "title": "Signal and Imaging Processing Laboratory"
+  },
+  {
+   "path": "/explore-our-college/departments/department-electrical-and-computer-engineering/news-events",
+   "title": "News & Events"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering",
+   "title": "Department of Mechanical Engineering"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/about-us",
+   "title": "About Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/about-us/advisory-council",
+   "title": "Advisory Council"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/about-us/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/about-us/message-chair",
+   "title": "Message from the Chair"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/academics-programs",
+   "title": "Academics & Programs"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/academics-programs/courses",
+   "title": "Courses"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/faculty-research",
+   "title": "Faculty & Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/faculty-research/acoustics-and-wave-propagation",
+   "title": "Acoustics and Wave Propagation"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/faculty-research/areas-research",
+   "title": "Areas of Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-mechanical-engineering/news-events",
+   "title": "News & Events"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics",
+   "title": "Department of Physics"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/about-us",
+   "title": "About Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/about-us/contact-us",
+   "title": "Contact Us"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/about-us/message-chair",
+   "title": "Message from the Chair"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/academics-programs",
+   "title": "Academics & Programs"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/academics-programs/courses",
+   "title": "Courses"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research",
+   "title": "Faculty & Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/areas-research",
+   "title": "Areas of Research"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/areas-research/research-opportunities",
+   "title": "Research Opportunities"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group",
+   "title": "Nuclear Physics Research Group"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/courses-nuclear-physics",
+   "title": "Courses in Nuclear Physics"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/current-projects-nuclear-physics-group",
+   "title": "Current Projects- Nuclear Physics Group"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/faculty-staff-and-student-directory",
+   "title": "Faculty, Staff, and Student Directory"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/faculty-staff-and-student-directory/dr-seiji-yashiro",
+   "title": "Dr. Seiji Yashiro"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/join-our-group",
+   "title": "Join Our Group"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/nuclear-physics-research-group/resources",
+   "title": "Resources"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/solar-physics-group",
+   "title": "Solar Physics Group"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/courses-solar-physics",
+   "title": "Courses - Solar Physics"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/current-projects",
+   "title": "Current Projects"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/faculty-staff-and-student-directory",
+   "title": "Faculty, Staff, and Student Directory"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/faculty-staff-and-student-directory/solar-physics-group-faculty-staff-profiles",
+   "title": "Solar Physics Group Faculty & Staff Profiles"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/faculty-research/solar-physics-group/resources-solar-physics-group",
+   "title": "Resources - Solar Physics Group"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/news-events",
+   "title": "News & Events"
+  },
+  {
+   "path": "/explore-our-college/departments/department-physics/news-events/colloquia-lectures",
+   "title": "Colloquia & Lectures"
+  },
+  {
+   "path": "/explore-our-college/facilities-locations",
+   "title": "Facilities & Locations"
+  },
+  {
+   "path": "/explore-our-college/facilities-locations/campus-locations-programs",
+   "title": "Off-Campus Locations & Programs"
+  },
+  {
+   "path": "/explore-our-college/facilities-locations/campus-locations-programs/fort-belvoir-night-vision-and-electronic-sensors-directorate",
+   "title": "Fort Belvoir - Night Vision and Electronic Sensors Directorate"
+  },
+  {
+   "path": "/explore-our-college/facilities-locations/campus-locations-programs/naval-surface-warfare-center-carderock-division",
+   "title": "Naval Surface Warfare Center - Carderock Division"
+  },
+  {
+   "path": "/explore-our-college/facilities-locations/campus-locations-programs/navsea-partnership",
+   "title": "NAVSEA Partnership"
+  },
+  {
+   "path": "/explore-our-college/facilities-locations/campus-locations-programs/newport-news-shipbuilding-huntington-ingalls-industries",
+   "title": "Newport News Shipbuilding - Huntington Ingalls Industries"
+  },
+  {
+   "path": "/explore-our-college/facilities-locations/fabrication-services",
+   "title": "Fabrication Services"
+  },
+  {
+   "path": "/explore-our-college/mission-vision",
+   "title": "Mission & Vision"
+  },
+  {
+   "path": "/explore-our-college/mission-vision/deans-welcome",
+   "title": "Dean\u2019s Welcome"
+  },
+  {
+   "path": "/explore-our-college/mission-vision/mission-statement-goals",
+   "title": "Mission Statement & Goals"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs",
+   "title": "Student Experience & Special Programs"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/grand-challenges-scholars-program",
+   "title": "Grand Challenges Scholars Program"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/senior-design-capstone-project",
+   "title": "Senior Design Capstone Project"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026",
+   "title": "Senior Design Day 2026"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-i-abstracts",
+   "title": "Concurrent Session I- Abstracts"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-ii-abstracts",
+   "title": "Concurrent Session II- Abstracts"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/senior-design-capstone-project/senior-design-day-2026/concurrent-session-iii-abstracts",
+   "title": "Concurrent Session III- Abstracts"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/student-organizations-projects-service",
+   "title": "Student Organizations, Projects, & Service"
+  },
+  {
+   "path": "/explore-our-college/student-experience-special-programs/study-abroad",
+   "title": "Study Abroad"
+  },
+  {
+   "path": "/explore-our-college/student-success",
+   "title": "Student Success"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories",
+   "title": "Student Stories"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/annemarie-donachie",
+   "title": "Annemarie Donachie"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/helen-mcdaniel",
+   "title": "Helen McDaniel"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/julia-schlottmann",
+   "title": "Julia Schlottmann"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/louis-nwuha",
+   "title": "Louis Nwuha"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/madison-hughes",
+   "title": "Madison Hughes"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/nathan-lovell",
+   "title": "Nathan Lovell"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories",
+   "title": "Previous Stories"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/alexander-ferrari",
+   "title": "Alexander Ferrari"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/benjamin-riesett",
+   "title": "Benjamin Riesett"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/chloe-lockwood",
+   "title": "Chloe Lockwood"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/emily-bowman",
+   "title": "Emily Bowman"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/laney-schulz",
+   "title": "Laney Schulz"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/maria-hargrave",
+   "title": "Maria Hargrave"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/meghan-murray",
+   "title": "Meghan Murray"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/michael-tyszko",
+   "title": "Michael Tyszko"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/morgan-trechter",
+   "title": "Morgan Trechter"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/nick-delucia",
+   "title": "Nick DeLucia"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/pauline-oteyza",
+   "title": "Pauline Oteyza"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/robert-lemanski",
+   "title": "Robert Lemanski"
+  },
+  {
+   "path": "/explore-our-college/student-success/student-stories/previous-stories/stephen-cypher",
+   "title": "Stephen Cypher"
+  },
+  {
+   "path": "/faculty-staff",
+   "title": "For Faculty & Staff"
+  },
+  {
+   "path": "/faculty-staff/fabrication-services-request-faculty-staff",
+   "title": "Fabrication Services Request - Faculty & Staff"
+  },
+  {
+   "path": "/programs-admission",
+   "title": "Programs & Admission"
+  },
+  {
+   "path": "/programs-admission/certificate-programs",
+   "title": "Certificate Programs"
+  },
+  {
+   "path": "/programs-admission/certificate-programs/acoustics-certificate",
+   "title": "Acoustics Certificate"
+  },
+  {
+   "path": "/programs-admission/certificate-programs/additive-manufacturing-professional-certificate",
+   "title": "Additive Manufacturing Professional Certificate"
+  },
+  {
+   "path": "/programs-admission/certificate-programs/data-analytics-professional-certificate",
+   "title": "Data Analytics Professional Certificate"
+  },
+  {
+   "path": "/programs-admission/certificate-programs/engineering-management-professional-certificate",
+   "title": "Engineering Management Professional Certificate"
+  },
+  {
+   "path": "/programs-admission/certificate-programs/management-information-technology-professional-certificate",
+   "title": "Management of Information Technology Professional Certificate"
+  },
+  {
+   "path": "/programs-admission/certificate-programs/program-management-professional-certificate",
+   "title": "Program Management Professional Certificate"
+  },
+  {
+   "path": "/programs-admission/certificate-programs/systems-engineering-professional-certificate",
+   "title": "Systems Engineering Professional Certificate"
+  },
+  {
+   "path": "/programs-admission/engineering-new-frontiers-institute",
+   "title": "Engineering New Frontiers Institute"
+  },
+  {
+   "path": "/programs-admission/graduate-programs",
+   "title": "Graduate Programs"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/applied-physics-and-nanotechnology-ms",
+   "title": "Applied Physics and Nanotechnology (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/applied-physics-and-nanotechnology-phd",
+   "title": "Applied Physics and Nanotechnology (PhD)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/applied-space-weather-research-ms",
+   "title": "Applied Space Weather Research (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/artificial-intelligence-ms",
+   "title": "Artificial Intelligence (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/biomedical-engineering-ms",
+   "title": "Biomedical Engineering (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/biomedical-engineering-phd",
+   "title": "Biomedical Engineering (PhD)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/civil-engineering-ms",
+   "title": "Civil Engineering (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/civil-engineering-phd",
+   "title": "Civil Engineering (PhD)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/computer-science-ms",
+   "title": "Computer Science (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/computer-science-phd",
+   "title": "Computer Science (PhD)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/data-analytics-ms",
+   "title": "Data Analytics (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/electrical-engineering-ms",
+   "title": "Electrical Engineering (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/electrical-engineering-phd",
+   "title": "Electrical Engineering (PhD)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/engineering-management-ms",
+   "title": "Engineering Management (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/environmental-engineering-ms",
+   "title": "Environmental Engineering (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/environmental-engineering-phd",
+   "title": "Environmental Engineering (PhD)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/mechanical-engineering-ms",
+   "title": "Mechanical Engineering (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/mechanical-engineering-phd",
+   "title": "Mechanical Engineering (PhD)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/physics-ms",
+   "title": "Physics (MS)"
+  },
+  {
+   "path": "/programs-admission/graduate-programs/physics-phd",
+   "title": "Physics (PhD)"
+  },
+  {
+   "path": "/programs-admission/how-apply-transfers",
+   "title": "How to Apply & Transfers"
+  },
+  {
+   "path": "/programs-admission/how-apply-transfers/accelerated-masters-program",
+   "title": "Accelerated Master\u2019s Program"
+  },
+  {
+   "path": "/programs-admission/how-apply-transfers/graduate-programs-additional-details",
+   "title": "Graduate Programs - Additional Details"
+  },
+  {
+   "path": "/programs-admission/how-apply-transfers/transfer-information",
+   "title": "Transfer Information"
+  },
+  {
+   "path": "/programs-admission/how-apply-transfers/transfer-information/domestic-transfer-programs",
+   "title": "Domestic Transfer Programs"
+  },
+  {
+   "path": "/programs-admission/how-apply-transfers/transfer-information/international-transfer-programs",
+   "title": "International Transfer Programs"
+  },
+  {
+   "path": "/programs-admission/request-information",
+   "title": "Request Information"
+  },
+  {
+   "path": "/programs-admission/scholarships-aid",
+   "title": "Scholarships & Aid"
+  },
+  {
+   "path": "/programs-admission/scholarships-aid/fellowship-opportunities",
+   "title": "Fellowship Opportunities"
+  },
+  {
+   "path": "/programs-admission/scholarships-aid/graduate-scholarships",
+   "title": "Graduate Scholarships"
+  },
+  {
+   "path": "/programs-admission/scholarships-aid/undergraduate-scholarships",
+   "title": "Undergraduate Scholarships"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs",
+   "title": "Undergraduate Programs"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/artificial-intelligence-bs",
+   "title": "Artificial Intelligence (BS)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/biomedical-engineering-bbe",
+   "title": "Biomedical Engineering (BBE)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/biomedical-engineering-bbe/enrollment-and-graduation-data",
+   "title": "Enrollment and Graduation Data"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/chemical-physics-bs",
+   "title": "Chemical Physics (BS)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/civil-engineering-bce",
+   "title": "Civil Engineering (BCE)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/computer-science-bs",
+   "title": "Computer Science (BS)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/dual-degree-architecture-and-engineering",
+   "title": "Dual-Degree in Architecture and Engineering"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/electrical-and-computer-engineering-bece",
+   "title": "Electrical and Computer Engineering (BECE)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/environmental-engineering-bs",
+   "title": "Environmental Engineering (BS)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/mechanical-engineering-bme",
+   "title": "Mechanical Engineering (BME)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/mechanical-engineering-bme/student-outcomes-and-enrollment-and-graduation-data",
+   "title": "Student Outcomes and Enrollment and Graduation Data"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/minors",
+   "title": "Minors"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/minors/applied-space-weather-research-minor",
+   "title": "Applied Space Weather Research (Minor)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/minors/artificial-intelligence-minor",
+   "title": "Artificial Intelligence (minor)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/minors/computer-science-minor",
+   "title": "Computer Science (minor)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/minors/data-analytics-minor",
+   "title": "Data Analytics (minor)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/minors/neuroscience-minor",
+   "title": "Neuroscience (minor)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/minors/physics-minor",
+   "title": "Physics (Minor)"
+  },
+  {
+   "path": "/programs-admission/undergraduate-programs/physics-bs",
+   "title": "Physics (BS)"
+  },
+  {
+   "path": "/programs-admission/visit",
+   "title": "Visit"
+  },
+  {
+   "path": "/search",
+   "title": "Search"
+  }
+ ],
+ "patterns": [
+  "/[...path]"
+ ]
 }

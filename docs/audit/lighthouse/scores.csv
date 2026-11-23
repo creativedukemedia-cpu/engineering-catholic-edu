@@ -1,0 +1,17 @@
+template,device,performance,accessibility,best_practices,seo,largest_contentful_paint_ms,total_blocking_time_ms
+certificate,mobile,97,100,100,100,888,200
+content,mobile,86,100,100,100,3795,188
+directory,mobile,98,100,100,100,896,160
+home,mobile,85,100,100,100,3989,172
+listing,mobile,99,100,100,100,906,118
+profile,mobile,89,100,100,100,3268,206
+program,mobile,99,100,100,100,1001,124
+story,mobile,100,100,100,100,908,80
+certificate,desktop,100,100,100,100,214,9
+content,desktop,100,100,100,100,801,14
+directory,desktop,100,100,100,100,214,10
+home,desktop,98,100,100,100,1068,6
+listing,desktop,100,100,100,100,726,9
+profile,desktop,100,100,100,100,679,10
+program,desktop,100,100,100,100,257,13
+story,desktop,100,100,100,100,260,14
