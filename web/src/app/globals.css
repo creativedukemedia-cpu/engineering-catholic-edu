@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --catholic-red: #b21f2c;
+  --catholic-blue: #0a3255;
+  --bright-red: #e82f35;
+  --bright-blue: #2459a9;
+  --light-red: #e96955;
+  --light-blue: #6dacde;
+  --yellow: #ffd65c;
+  --blue-green: #b5e1e1;
+  --grey: #a7a9ac;
+  --lux: #b18f50;
+  --limestone: #efebe9;
+  --sandstone: #f7f3ed;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+@theme inline {
+  --color-catholic-red: var(--catholic-red);
+  --color-catholic-blue: var(--catholic-blue);
+  --color-bright-blue: var(--bright-blue);
+  --color-limestone: var(--limestone);
+  --color-sandstone: var(--sandstone);
+  --font-headline: var(--font-oswald);
+  --font-body: var(--font-roboto);
+  --font-editorial: var(--font-crimson);
+}
+
+body {
+  background: var(--sandstone);
+  color: var(--black);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--bright-blue);
+  outline-offset: 2px;
+}

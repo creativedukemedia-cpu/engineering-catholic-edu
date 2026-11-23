@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "skills": {
+    "accessibility-review": {
+      "source": "anthropics/knowledge-work-plugins",
+      "commit": "0e0fcacddcc892eb92a1b7873ff9d68159c47571",
+      "sourceType": "github",
+      "skillPath": "design/skills/accessibility-review/SKILL.md",
+      "computedHash": "47f1742bc651c43275a313d159623cf51b5cda8934bfc9088c404a593e5a7e9e",
+      "installMode": "copy"
+    },
+    "design-system": {
+      "source": "anthropics/knowledge-work-plugins",
+      "commit": "0e0fcacddcc892eb92a1b7873ff9d68159c47571",
+      "sourceType": "github",
+      "skillPath": "design/skills/design-system/SKILL.md",
+      "computedHash": "ea43527b6f738c03f2a5fbaf76a2567b0271ebbb0d158aa9c618321366aaaff8",
+      "installMode": "copy"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "83485963700bcf11d5bf78118facb301676b69d918fee2e45a95e7f1a2840f6c",
+      "installMode": "copy"
+    }
+  }
+}

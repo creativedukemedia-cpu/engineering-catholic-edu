@@ -1,0 +1,56 @@
+---
+description: Master context for the engineering.catholic.edu redesign. Brand, audiences, programs, and publishing rules.
+alwaysApply: true
+---
+
+# Master context
+
+Redesign and consolidation of engineering.catholic.edu, College of Engineering, Physics, and Computing, The Catholic University of America, Washington DC.
+
+## Audiences
+
+Prospective undergrads and parents. Grad and international applicants. Working professionals (evening and online). Current students. Faculty recruits. Industry and research partners. Alumni and donors.
+
+## Goals
+
+More qualified applications and Request Info leads. Stronger research visibility. Better organic and AI search presence.
+
+## Brand
+
+Source of truth: brand.catholic.edu, "Lead with Light". Do not deviate.
+
+- Primary colors dominate: Catholic Red `#b21f2c`, Catholic Blue `#0a3255`.
+- Secondary: Bright Red `#e82f35`, Bright Blue `#2459a9`, Light Red `#e96955`, Light Blue `#6dacde`.
+- Tertiary, 5 to 10% max, accents only: Yellow `#ffd65c`, Light Blue-Green `#b5e1e1`.
+- Neutrals: Black, White, Grey `#a7a9ac`, Lux `#b18f50`, Limestone `#efebe9`, Sandstone `#f7f3ed`.
+- Headlines: Acumin Pro Condensed or Extra Condensed Black. Body: Acumin Pro. Editorial: Warnock Pro.
+- Web fallbacks: Oswald Bold, Roboto, Crimson Text.
+- Official university logo only. Never recolor it.
+- Tone: warm, confident, mission-driven, ethics and service. Catholic identity with restraint.
+- WCAG 2.2 AA. Yellow and Lux are never text on white.
+
+`frontend-design` may shape layout, type hierarchy, and motion. It may not invent a palette, recolor the logo, or override these tokens. `design-system` must build components from these tokens. `accessibility-review` checks WCAG 2.2 AA, including the Yellow and Lux ban as text on white.
+
+## Programs
+
+Undergrad: AI (BSAI). Biomedical Eng (BBE; Regular, Pre-Med). Chemical Physics (BS). Civil Eng (BCE; Construction Eng & Mgmt, Environmental, Structural, Transportation). Computer Science (BSCS). Electrical and Computer Eng (BECE). Environmental Eng (BS). Mechanical Eng (BME; Traditional, Aerospace, Energy & Environment). Physics (BS). Dual degree Architecture and Engineering.
+
+Minors: AI, CS, Data Analytics, Physics.
+
+Pre-college: Engineering New Frontiers Institute.
+
+Graduate: MS/PhD in Biomedical, Civil, Electrical, Environmental, Computer Science, Mechanical. MS in AI, Data Analytics (campus and online), Engineering Management, Materials Science and Engineering, Physics. Applied Physics and Nanotechnology (MS, PhD). Physics PhD.
+
+Certificates: Acoustics, Additive Manufacturing, Cyber Security and Privacy, Data Analytics, Engineering Management, Management of IT, Power Electronics, Program Management, Signal Processing and Data Sciences, Systems Engineering.
+
+Do not add, rename, or drop a program unless the user or a verified source says so.
+
+## Verify before publishing
+
+Mark anything not confirmed as `[VERIFY]`. Do not invent stats, rankings, faculty names, quotes, or deadlines.
+
+Check before treating as fact: ABET accreditation per program, NAE Grand Challenges Scholars school since 2016, partners (NASA, NIH, NIST, NRL, US Navy), nearly 100 years, the 2025 rename, and any "30 programs" claim.
+
+## Writing
+
+Write like a person. Short sentences. No filler. No em dashes.
