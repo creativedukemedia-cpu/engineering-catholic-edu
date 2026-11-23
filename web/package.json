@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "start:exposed": "next start -H 0.0.0.0 -p 3000",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "redirects": "python3 scripts/build-redirect-map.py"
   },
   "dependencies": {
     "next": "16.4.6",

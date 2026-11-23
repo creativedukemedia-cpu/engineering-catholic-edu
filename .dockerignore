@@ -1,0 +1,18 @@
+# Kept in the repository for local docker builds. The publish pipeline supplies
+# its own ignore rules (node_modules, .git, .env) regardless of this file.
+.git
+.agents
+.cursor
+docs
+web/.next
+web/node_modules
+web/out
+web/tsconfig.tsbuildinfo
+web/next-env.d.ts
+**/*.tsbuildinfo
+.env
+.env.*
+!.env.example
+**/npm-debug.log*
+.DS_Store
+README.md
