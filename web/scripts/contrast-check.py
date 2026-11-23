@@ -201,6 +201,12 @@ def main() -> int:
         if region.get("type") == "flat":
             # Solid brand fill: read it straight from the palette table.
             col = BRAND[region["background"]]
+            # Tailwind fill opacity, e.g. bg-white/5 laid over Catholic Blue.
+            # The browser composites the fill before any text lands on it, so
+            # the gate has to do the same.
+            if region.get("background_alpha") is not None:
+                col = over(col, region["background_alpha"],
+                           BRAND[region["background_over"]])
             # Tailwind opacity modifiers, e.g. text-black/75, composite the
             # ink with the fill before it reaches the eye.
             alpha = region.get("foreground_alpha")

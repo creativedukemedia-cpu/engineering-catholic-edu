@@ -8,7 +8,7 @@ export function Section({
   id,
 }: {
   children: ReactNode;
-  tone?: "light" | "dark" | "card";
+  tone?: "light" | "dark" | "card" | "plain";
   className?: string;
   id?: string;
 }) {
@@ -17,7 +17,9 @@ export function Section({
       ? "bg-catholic-blue text-white"
       : tone === "card"
         ? "bg-limestone"
-        : "bg-sandstone";
+        : tone === "plain"
+          ? "bg-white text-black"
+          : "bg-sandstone";
   return (
     <section id={id} className={`${bg} py-12 md:py-16 ${className}`}>
       <Container>{children}</Container>

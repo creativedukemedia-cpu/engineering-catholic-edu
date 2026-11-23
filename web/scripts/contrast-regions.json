@@ -1,81 +1,147 @@
 {
-  "note": "Pixel boxes for scripts/contrast-check.py, measured from headless Chromium renders of the production build: 1440x1000 and 390x844, 2026-11-23. Re-measure after any layout change. `hero` is [first row of the plate, last row before the horizon rule].",
+  "note": "Pixel boxes for scripts/contrast-check.py, measured from headless Chromium renders of the production build: 1440x1000 and 390x844, 2026-11-23. Re-measure after any layout change. `hero` is [first row of the plate, last row before the horizon rule]. Regions with `type: flat` are solid or translucent brand fills; their ratio is palette arithmetic, so they hold at every width and are listed once, under 1440. Every foreground and background pair the homepage and footer use appears here.",
   "hero": {
-    "1440": [121, 901],
-    "390": [118, 561]
+    "1440": [
+      121,
+      901
+    ],
+    "390": [
+      118,
+      561
+    ]
   },
   "calibration": {
-    "1440": [620, 140, 1400, 320],
-    "390": [250, 130, 386, 320]
+    "1440": [
+      620,
+      140,
+      1400,
+      320
+    ],
+    "390": [
+      250,
+      130,
+      386,
+      320
+    ]
   },
   "regions": [
     {
       "name": "hero eyebrow",
       "viewport": 1440,
-      "box": [118, 448, 218, 476],
+      "box": [
+        118,
+        448,
+        218,
+        476
+      ],
       "foreground": "yellow",
       "size": "body"
     },
     {
       "name": "hero h1 line 1",
       "viewport": 1440,
-      "box": [118, 489, 556, 555],
+      "box": [
+        118,
+        489,
+        556,
+        555
+      ],
       "foreground": "white",
       "size": "large"
     },
     {
       "name": "hero h1 line 3",
       "viewport": 1440,
-      "box": [118, 622, 322, 680],
+      "box": [
+        118,
+        622,
+        322,
+        680
+      ],
       "foreground": "white",
       "size": "large"
     },
     {
       "name": "hero subhead",
       "viewport": 1440,
-      "box": [118, 700, 556, 758],
+      "box": [
+        118,
+        700,
+        556,
+        758
+      ],
       "foreground": "white",
       "size": "body"
     },
     {
       "name": "hero quiet link",
       "viewport": 1440,
-      "box": [498, 808, 574, 836],
+      "box": [
+        498,
+        808,
+        574,
+        836
+      ],
       "foreground": "white",
       "size": "body"
     },
     {
       "name": "hero eyebrow",
       "viewport": 390,
-      "box": [16, 176, 114, 198],
+      "box": [
+        16,
+        176,
+        114,
+        198
+      ],
       "foreground": "yellow",
       "size": "body"
     },
     {
       "name": "hero h1 line 1",
       "viewport": 390,
-      "box": [16, 205, 236, 246],
+      "box": [
+        16,
+        205,
+        236,
+        246
+      ],
       "foreground": "white",
       "size": "large"
     },
     {
       "name": "hero h1 lines 2-3",
       "viewport": 390,
-      "box": [16, 246, 236, 312],
+      "box": [
+        16,
+        246,
+        236,
+        312
+      ],
       "foreground": "white",
       "size": "large"
     },
     {
       "name": "hero subhead",
       "viewport": 390,
-      "box": [16, 330, 358, 375],
+      "box": [
+        16,
+        330,
+        358,
+        375
+      ],
       "foreground": "white",
       "size": "body"
     },
     {
       "name": "hero quiet link",
       "viewport": 390,
-      "box": [44, 490, 128, 512],
+      "box": [
+        44,
+        490,
+        128,
+        512
+      ],
       "foreground": "white",
       "size": "body"
     },
@@ -203,15 +269,6 @@
       "size": "body"
     },
     {
-      "name": "proof note 12px",
-      "viewport": 1440,
-      "type": "flat",
-      "foreground": "catholic-blue",
-      "foreground_alpha": 0.8,
-      "background": "white",
-      "size": "body"
-    },
-    {
       "name": "dark section body",
       "viewport": 1440,
       "type": "flat",
@@ -250,6 +307,642 @@
       "foreground": "white",
       "background": "catholic-red",
       "size": "body"
+    },
+    {
+      "name": "research tile title",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white",
+      "background_alpha": 0.05,
+      "background_over": "catholic-blue"
+    },
+    {
+      "name": "research tile eyebrow",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white",
+      "background_alpha": 0.05,
+      "background_over": "catholic-blue"
+    },
+    {
+      "name": "research tile cta",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white",
+      "background_alpha": 0.05,
+      "background_over": "catholic-blue"
+    },
+    {
+      "name": "centers tile title",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "centers tile acronym",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "centers tile body",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "centers directory heading",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "centers directory eyebrow",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "career figure",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "size": "large",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "career claim",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "career qualifier",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "career source note",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "film person",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "film title",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "film title hover",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "film blurb",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "life tile label",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "life tile line",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "news featured date",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "news featured title",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "news row title",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "news row date",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "events panel body",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "events panel link",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "events panel heading",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "large",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "ethics serif body",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "ethics heading",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "large",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "ethics aside link",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "ethics aside note",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "visit heading",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "large",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "visit address strong",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "visit address line",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "white"
+    },
+    {
+      "name": "band heading link sandstone",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "sandstone"
+    },
+    {
+      "name": "band heading link limestone",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "limestone"
+    },
+    {
+      "name": "footer college name",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer address line",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer map link",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer give label",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer give text",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer column heading",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer nav link",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer university link",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer legal link",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer copyright",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
+    },
+    {
+      "name": "footer back to top",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "size": "body",
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "background": "catholic-blue"
     }
   ]
 }

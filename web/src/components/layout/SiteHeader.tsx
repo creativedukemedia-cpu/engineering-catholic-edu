@@ -5,41 +5,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Container } from "./Container";
-import { contactLink, navGroups, utilityLinks, type NavLink } from "@/lib/nav";
+import { contactLink, navGroups, utilityLinks } from "@/lib/nav";
+import { SiteLink } from "@/components/ui/SiteLink";
 
 const UNIVERSITY_HOME = "https://www.catholic.edu/";
-
-function isInternal(href: string) {
-  return href.startsWith("/");
-}
-
-/**
- * One link, used in the mega panels, the utility row, and the drawer.
- * Links whose redesigned page is not built yet go to the current site.
- */
-function NavItem({
-  link,
-  className = "",
-  onNavigate,
-}: {
-  link: NavLink;
-  className?: string;
-  onNavigate?: () => void;
-}) {
-  const props = {
-    href: link.href,
-    className: `focus-ring ${className}`,
-    onClick: onNavigate,
-    ...(link.currentSite ? { title: "Opens the current site in a new tab" } : null),
-  };
-  return isInternal(link.href) ? (
-    <Link {...props}>{link.label}</Link>
-  ) : (
-    <a {...props} target="_blank" rel="noopener noreferrer">
-      {link.label}
-    </a>
-  );
-}
 
 function Chevron({ className = "" }: { className?: string }) {
   return (
@@ -177,7 +146,7 @@ export function SiteHeader() {
             <ul className="hidden items-center gap-5 md:flex">
               {utilityLinks.map((link) => (
                 <li key={link.label}>
-                  <NavItem
+                  <SiteLink
                     link={link}
                     className="eyebrow text-catholic-red underline-offset-4 hover:underline hover:decoration-2"
                   />
@@ -339,7 +308,7 @@ export function SiteHeader() {
                     <ul className="mt-3 space-y-3.5">
                       {column.links.map((link) => (
                         <li key={link.href}>
-                          <NavItem
+                          <SiteLink
                             link={link}
                             className="block font-headline text-[15px] font-medium leading-tight text-catholic-blue hover:text-catholic-red hover:underline hover:decoration-1 hover:underline-offset-4"
                           />
@@ -406,7 +375,7 @@ export function SiteHeader() {
                             <ul className="mt-2 space-y-2.5 pb-3">
                               {column.links.map((link) => (
                                 <li key={link.href}>
-                                  <NavItem
+                                  <SiteLink
                                     link={link}
                                     onNavigate={() => setDrawerOpen(false)}
                                     className="block text-[15px] leading-snug text-black"
@@ -421,7 +390,7 @@ export function SiteHeader() {
                   </li>
                 ))}
                 <li>
-                  <NavItem
+                  <SiteLink
                     link={contactLink}
                     onNavigate={() => setDrawerOpen(false)}
                     className="flex min-h-12 font-headline text-[17px] font-bold text-catholic-blue"
@@ -433,7 +402,7 @@ export function SiteHeader() {
             <ul className="mt-3 flex flex-wrap gap-x-6 gap-y-2 border-t border-grey/35 pt-4">
               {utilityLinks.map((link) => (
                 <li key={link.label}>
-                  <NavItem link={link} className="eyebrow text-catholic-red" />
+                  <SiteLink link={link} className="eyebrow text-catholic-red" />
                 </li>
               ))}
             </ul>

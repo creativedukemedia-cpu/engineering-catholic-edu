@@ -1,0 +1,433 @@
+{
+  "generatedBy": "web/scripts/fetch-live-assets.py",
+  "site": "https://engineering.catholic.edu",
+  "retrieved": "2026-11-23",
+  "note": "Photography and alt text from the current site, university owned, for this redesign. Confirm rights before publishing. Five slugs were renamed for readability; originalSlug keeps the link to the source filename.",
+  "assets": [
+    {
+      "file": "public/media/cepc-school-collage.jpg",
+      "width": 1600,
+      "height": 805,
+      "bytes": 249887,
+      "sourcePage": "/",
+      "sourceStyle": "cta_large",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/cta_large/public/2026-09/CEPC-School-Collage.jpg?h=3f69c139&itok=tM0EM8ki",
+      "siteAltText": "Collage of conceptual images and scenes from the College of Engineering, Physics, and Computing."
+    },
+    {
+      "file": "public/media/cpec-grad-programs-feature.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 105668,
+      "sourcePage": "/",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/CPEC-Grad-Programs-Feature.jpg?h=7eabb7da&itok=BS4sEy15",
+      "siteAltText": "Professor teaching CPEC graduate students."
+    },
+    {
+      "file": "public/media/cpec-undergrad-programs-feature.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 104814,
+      "sourcePage": "/",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/CPEC-Undergrad-Programs-Feature.jpg?h=b9af0d62&itok=LkLfrqD2",
+      "siteAltText": "Undergraduate CPEC students in a classroom."
+    },
+    {
+      "file": "public/media/facilities-capitol-model.jpg",
+      "width": 1600,
+      "height": 434,
+      "bytes": 76360,
+      "sourcePage": "/explore-our-college/facilities-locations",
+      "sourceStyle": "hero_bp_desktop",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/hero_bp_desktop/public/2026-09/Facilities-Locations-Hero2.jpg?h=c8ca06b4&itok=G0PML8ni",
+      "siteAltText": "3D printed version of the U.S. Capitol building.",
+      "originalSlug": "facilities-locations-hero2.jpg"
+    },
+    {
+      "file": "public/media/g-academic-career-success-graphical.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 68937,
+      "sourcePage": "/explore-our-college/student-experience-special-programs",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Academic-Career-Success-Graphical.jpg?h=8b7966f8&itok=n18Tz4UR",
+      "siteAltText": "Stylized illustrated graphic of academic and career success."
+    },
+    {
+      "file": "public/media/g-article-default-hero.jpg",
+      "width": 1600,
+      "height": 434,
+      "bytes": 134607,
+      "sourcePage": "/connect-contact/news-events",
+      "sourceStyle": "hero_bp_desktop",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/hero_bp_desktop/public/2026-09/G-Article-Default-Hero-2.jpg?h=c8ca06b4&itok=9Doan9il",
+      "siteAltText": "Close up of gears, prototypes, device mechanics, and other science & technology inner workings."
+    },
+    {
+      "file": "public/media/g-biomedical-engineering.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 107472,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Biomedical-Engineering-Hero.jpg?h=7b99080c&itok=6Ycyg69K",
+      "siteAltText": "Ambient background with DNA and computer analysis of genetics and biology."
+    },
+    {
+      "file": "public/media/g-cabrr.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 225430,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-CABRR-Hero.jpg?h=c8ca06b4&itok=0OIwRux8",
+      "siteAltText": "Illustration of human body mechanics with analysis of muscular skeletal systems."
+    },
+    {
+      "file": "public/media/g-cair.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 95278,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-CAIR-Hero.jpg?h=8b7966f8&itok=5HvAoKYJ",
+      "siteAltText": "AI information network stretching across societal landscape."
+    },
+    {
+      "file": "public/media/g-civil-environmental.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 151942,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Civil-Environmental-Hero.jpg?h=975df665&itok=2sBTREqb",
+      "siteAltText": "City landscape connected with the earth and environment."
+    },
+    {
+      "file": "public/media/g-computer-science.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 246494,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Computer-Science-Hero.jpg?h=ed27e282&itok=C55fNJuU",
+      "siteAltText": "Computer code and light representing a network data stream."
+    },
+    {
+      "file": "public/media/g-electrical-computer.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 153833,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Electrical-Computer-Hero.jpg?h=c8ca06b4&itok=cRRmrGPc",
+      "siteAltText": "Cityscape with electrical and computer elements highlighted to demonstrate how they all connect."
+    },
+    {
+      "file": "public/media/g-iacs.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 114417,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-IACS-Hero.jpg?h=fad30928&itok=SaJKYDPp",
+      "siteAltText": "Mathematical polygons of space and astrophysics interplay."
+    },
+    {
+      "file": "public/media/g-mechanical-engineering.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 178525,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Mechanical-Engineering-Hero.jpg?h=c8ca06b4&itok=hzbIoYJu",
+      "siteAltText": "Gears, components, and equations that are part of mechanical systems functionality.."
+    },
+    {
+      "file": "public/media/g-national-international-visual.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 148463,
+      "sourcePage": "/",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-National-International-Visual_0.jpg?h=197483aa&itok=k1c0CO-O",
+      "siteAltText": "U.S. map in digital form with crest of the globe showing international expanse."
+    },
+    {
+      "file": "public/media/g-physics.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 182924,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Physics-Hero.jpg?h=c8ca06b4&itok=XqhU6bfZ",
+      "siteAltText": "Physics equations and mathematical curves overlayed on space."
+    },
+    {
+      "file": "public/media/g-space-weather.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 170714,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Space-Weather-2.jpg?h=f229d2e1&itok=cMpJdkGa",
+      "siteAltText": "Sun with solar flares affecting space."
+    },
+    {
+      "file": "public/media/g-study-abroad-oxford-england.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 234972,
+      "sourcePage": "/explore-our-college/student-experience-special-programs",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Study-Abroad-Oxford-England.jpg?h=8b7966f8&itok=UCzznhKN",
+      "siteAltText": "Skyline of Oxford, England with many historic buildings and open sky."
+    },
+    {
+      "file": "public/media/g-sun-and-solar-flares.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 217015,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/G-Sun-and-Solar-Flares.jpg?h=c8ca06b4&itok=K5HfJZDx",
+      "siteAltText": "Close image of the sun and solar flares."
+    },
+    {
+      "file": "public/media/g-tech-engineering-physics-opportunities.jpg",
+      "width": 1600,
+      "height": 434,
+      "bytes": 186712,
+      "sourcePage": "/explore-our-college/career-development",
+      "sourceStyle": "hero_bp_desktop",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/hero_bp_desktop/public/2026-09/G-Tech-Engineering-Physics-Opportunities-Hero.jpg?h=c8ca06b4&itok=HTeNDxVy",
+      "siteAltText": "Abstract graphic representing opportunities in technology, engineering, and physics."
+    },
+    {
+      "file": "public/media/g-technical-innovation-network.jpg",
+      "width": 1600,
+      "height": 434,
+      "bytes": 149756,
+      "sourcePage": "/explore-our-college/centers-institutes-research",
+      "sourceStyle": "hero_bp_desktop",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/hero_bp_desktop/public/2026-09/G-Technical-Innovation-Network.jpg?h=ed27e282&itok=0NelOQNl",
+      "siteAltText": "Abstract image of a technical innovation network that combines knowledge."
+    },
+    {
+      "file": "public/media/honors-students-at-the-basilica.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 92160,
+      "sourcePage": "/explore-our-college/student-experience-special-programs",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/honors-students-at-the-basilica.jpg?h=3a690676&itok=yjFhuudW",
+      "siteAltText": "Students from the University Honors Program."
+    },
+    {
+      "file": "public/media/news-acs-award.jpg",
+      "width": 800,
+      "height": 599,
+      "bytes": 57949,
+      "sourcePage": "/connect-contact/news-events",
+      "sourceStyle": "large",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/large/public/2026-11/Screenshot%20%28119%29.png.webp?itok=s7SqWQgz",
+      "siteAltText": "Faculty and student pose in front or research presentation.",
+      "originalSlug": "screenshot-119-png.jpg"
+    },
+    {
+      "file": "public/media/news-nguyen-taiwan.jpg",
+      "width": 800,
+      "height": 603,
+      "bytes": 92968,
+      "sourcePage": "/connect-contact/news-events",
+      "sourceStyle": "large",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/large/public/2026-11/group-photo.jpg.webp?itok=AHZ9lsAm",
+      "siteAltText": "Group of conference attendees.",
+      "originalSlug": "group-photo-jpg.jpg"
+    },
+    {
+      "file": "public/media/news-research-funding.jpg",
+      "width": 800,
+      "height": 450,
+      "bytes": 34171,
+      "sourcePage": "/connect-contact/news-events",
+      "sourceStyle": "large",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/large/public/2026-11/CEPC%20Research%20Funding%20Graphic%20%281%29.png.webp?itok=sWsWZTR_",
+      "siteAltText": "$4.8 Million in New Research Funding",
+      "originalSlug": "cepc-research-funding-graphic-1-png.jpg"
+    },
+    {
+      "file": "public/media/news-williams-award.jpg",
+      "width": 800,
+      "height": 380,
+      "bytes": 57586,
+      "sourcePage": "/connect-contact/news-events",
+      "sourceStyle": "large",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/large/public/2026-10/DSC_6666%20-%20Copy.JPG.webp?itok=X5VusBWm",
+      "siteAltText": "Vice Admiral Mel Williams poses with students.",
+      "originalSlug": "dsc-6666-copy-jpg.jpg"
+    },
+    {
+      "file": "public/media/partner-AECOM-Name.jpg",
+      "width": 148,
+      "height": 61,
+      "bytes": 4695,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "AECOM (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-Balfour-Beatty-Name.jpg",
+      "width": 362,
+      "height": 73,
+      "bytes": 9596,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "Balfour Beatty (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-General-Motors-Name.jpg",
+      "width": 322,
+      "height": 62,
+      "bytes": 8525,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "General Motors (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-IBM-Name.jpg",
+      "width": 86,
+      "height": 59,
+      "bytes": 3403,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "IBM (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-Lockheed-Martin-Name.jpg",
+      "width": 352,
+      "height": 61,
+      "bytes": 8855,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "Lockheed Martin (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-Merck-Name.jpg",
+      "width": 140,
+      "height": 61,
+      "bytes": 4598,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "Merck (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-NASA-Name.jpg",
+      "width": 117,
+      "height": 61,
+      "bytes": 4275,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "NASA (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-Newport-News-Name.jpg",
+      "width": 307,
+      "height": 130,
+      "bytes": 14411,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "Newport News (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-Texas-AM-Name.jpg",
+      "width": 451,
+      "height": 73,
+      "bytes": 11468,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "Texas A&M (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/partner-US-Navy-Name.jpg",
+      "width": 197,
+      "height": 71,
+      "bytes": 5714,
+      "sourcePage": "/",
+      "sourceStyle": "ks_logo_gallery",
+      "sourceUrl": null,
+      "siteAltText": "US Navy (employer wordmark)",
+      "provenanceNote": "Downloaded from the current site's career logo gallery in an earlier pass at 500x279, then cropped to the letterforms; the gallery's full-width rule row was removed. Colors and letterforms otherwise unaltered."
+    },
+    {
+      "file": "public/media/research-day-promo.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 206975,
+      "sourcePage": "/explore-our-college/student-experience-special-programs",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/research-day-promo.jpg?h=70f7ec35&itok=lEIMVfvT",
+      "siteAltText": "Tiles of science, technology, and other research-related graphics connected and shining."
+    },
+    {
+      "file": "public/media/student-orgs-promo.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 142915,
+      "sourcePage": "/explore-our-college/student-experience-special-programs",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/Student-Orgs-Promo.jpg?h=2272e937&itok=TI-IGIEg",
+      "siteAltText": "University students walking and enjoying campus greenspace area on way to activities.."
+    },
+    {
+      "file": "public/media/students-in-mccarthy-facility.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 144543,
+      "sourcePage": "/explore-our-college/student-experience-special-programs",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/Students-in-McCarthy-Facility.jpg?h=15c677f6&itok=Ma-DiMoW",
+      "siteAltText": "Students designing prototypes in the workspaces in McCarthy building."
+    },
+    {
+      "file": "public/media/students-studying-aeronautics.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 87697,
+      "sourcePage": "/explore-our-college/career-development",
+      "sourceStyle": "ks_feature",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/ks_feature/public/2026-09/Students-Studying-Aeronautics.jpg?h=b9af0d62&itok=aew1pa9p",
+      "siteAltText": "Two students working on an airplane model to study aeronautics."
+    },
+    {
+      "file": "public/media/undergrad-student-getting-inspired.jpg",
+      "width": 1600,
+      "height": 434,
+      "bytes": 109748,
+      "sourcePage": "/explore-our-college/student-experience-special-programs",
+      "sourceStyle": "hero_bp_desktop",
+      "sourceUrl": "https://engineering.catholic.edu/sites/engineering.catholic.edu/files/styles/hero_bp_desktop/public/2026-09/Undergrad-Student-Getting-Inspired-Hero.jpg?h=e0ffa489&itok=h_rkVKjg",
+      "siteAltText": "Undergraduate female student getting inspired."
+    }
+  ]
+}
