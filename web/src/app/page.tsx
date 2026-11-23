@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import { Hero } from "@/components/home/Hero";
 import { ProgramFinder } from "@/components/home/ProgramFinder";
-import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
 import { Button } from "@/components/ui/Button";
 
@@ -9,21 +10,33 @@ const paths = [
     title: "Undergraduate",
     line: "Bachelor's degrees and a dual degree.",
     href: "/programs-admission/undergraduate-programs",
+    cta: "See undergraduate",
+    image: "/media/students-classroom.jpg",
+    alt: "Undergraduate engineering students in a classroom.",
   },
   {
     title: "Graduate",
     line: "Master's and doctoral degrees.",
     href: "/programs-admission/graduate-programs",
+    cta: "See graduate",
+    image: "/media/faculty-teaching-lab.jpg",
+    alt: "A professor teaching graduate students.",
   },
   {
     title: "Certificates",
     line: "Shorter programs for working engineers.",
     href: "/programs-admission/certificate-programs",
+    cta: "See certificates",
+    image: "/media/lab-mechanisms.jpg",
+    alt: "Close-up of gears and device mechanics.",
   },
   {
     title: "Research",
     line: "Centers, labs, and faculty.",
     href: "/explore-our-college/centers-institutes-research",
+    cta: "See research",
+    image: "/media/college-collage.jpg",
+    alt: "Collage of scenes from the College of Engineering, Physics, and Computing.",
   },
 ];
 
@@ -86,44 +99,32 @@ const stories = [
 export default function HomePage() {
   return (
     <>
-      <div className="bg-catholic-blue text-white">
-        <div
-          className="relative aspect-video w-full max-h-[220px] bg-catholic-blue md:max-h-[280px]"
-          aria-label="Place a Pangborn or college lab photo here. No text on the image."
-        >
-          <div className="absolute inset-0 bg-catholic-blue/80" />
-        </div>
-        <Container className="pb-12 pt-8">
-          <h1 className="max-w-xl font-[family-name:var(--font-headline)] text-3xl font-bold leading-tight md:text-5xl">
-            Hard problems, taken up in service
-          </h1>
-          <p className="mt-4 max-w-lg text-lg text-[var(--light-blue)]">
-            Engineering, physics, and computing at The Catholic University of America.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Button href="/programs-admission/request-information" onDark>
-              Request Info
-            </Button>
-            <Button href="/programs-admission" variant="secondary" onDark>
-              Explore Programs
-            </Button>
-          </div>
-        </Container>
-      </div>
+      <Hero />
 
       <Section id="paths">
         <h2 className="sr-only">Quick paths</h2>
-        <ul className="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {paths.map((p) => (
             <li key={p.href}>
               <Link
                 href={p.href}
-                className="focus-ring block h-full rounded-lg border border-catholic-blue/15 bg-limestone p-4 hover:border-catholic-blue"
+                className="focus-ring group block h-full overflow-hidden rounded-lg border border-catholic-blue/15 bg-limestone hover:border-catholic-blue"
               >
-                <h3 className="font-[family-name:var(--font-headline)] text-lg font-bold text-catholic-blue">
-                  {p.title}
-                </h3>
-                <p className="mt-2 text-sm">{p.line}</p>
+                <Image
+                  src={p.image}
+                  alt=""
+                  width={1200}
+                  height={801}
+                  className="aspect-[4/3] w-full object-cover"
+                />
+                <span className="sr-only">{p.alt}</span>
+                <span className="block p-4">
+                  <span className="font-headline block text-lg font-bold text-catholic-blue group-hover:text-catholic-red">
+                    {p.title}
+                  </span>
+                  <span className="mt-1.5 block text-sm">{p.line}</span>
+                  <span className="eyebrow mt-3 block text-catholic-red">{p.cta}</span>
+                </span>
               </Link>
             </li>
           ))}
@@ -204,7 +205,8 @@ export default function HomePage() {
           Artificial intelligence, taught with ethics
         </h2>
         <p className="mt-4 max-w-prose">
-          The bachelor's in AI and the master's in AI sit inside a Catholic university. Technical work sits next to the question of how it should be used.
+          The bachelor&rsquo;s degree in AI and the master&rsquo;s in AI sit inside a Catholic
+          university. Technical work sits next to the question of how it should be used.
         </p>
         <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:gap-6">
           <Link

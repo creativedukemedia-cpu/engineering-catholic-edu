@@ -1,0 +1,255 @@
+{
+  "note": "Pixel boxes for scripts/contrast-check.py, measured from headless Chromium renders of the production build: 1440x1000 and 390x844, 2026-11-23. Re-measure after any layout change. `hero` is [first row of the plate, last row before the horizon rule].",
+  "hero": {
+    "1440": [121, 901],
+    "390": [118, 561]
+  },
+  "calibration": {
+    "1440": [620, 140, 1400, 320],
+    "390": [250, 130, 386, 320]
+  },
+  "regions": [
+    {
+      "name": "hero eyebrow",
+      "viewport": 1440,
+      "box": [118, 448, 218, 476],
+      "foreground": "yellow",
+      "size": "body"
+    },
+    {
+      "name": "hero h1 line 1",
+      "viewport": 1440,
+      "box": [118, 489, 556, 555],
+      "foreground": "white",
+      "size": "large"
+    },
+    {
+      "name": "hero h1 line 3",
+      "viewport": 1440,
+      "box": [118, 622, 322, 680],
+      "foreground": "white",
+      "size": "large"
+    },
+    {
+      "name": "hero subhead",
+      "viewport": 1440,
+      "box": [118, 700, 556, 758],
+      "foreground": "white",
+      "size": "body"
+    },
+    {
+      "name": "hero quiet link",
+      "viewport": 1440,
+      "box": [498, 808, 574, 836],
+      "foreground": "white",
+      "size": "body"
+    },
+    {
+      "name": "hero eyebrow",
+      "viewport": 390,
+      "box": [16, 176, 114, 198],
+      "foreground": "yellow",
+      "size": "body"
+    },
+    {
+      "name": "hero h1 line 1",
+      "viewport": 390,
+      "box": [16, 205, 236, 246],
+      "foreground": "white",
+      "size": "large"
+    },
+    {
+      "name": "hero h1 lines 2-3",
+      "viewport": 390,
+      "box": [16, 246, 236, 312],
+      "foreground": "white",
+      "size": "large"
+    },
+    {
+      "name": "hero subhead",
+      "viewport": 390,
+      "box": [16, 330, 358, 375],
+      "foreground": "white",
+      "size": "body"
+    },
+    {
+      "name": "hero quiet link",
+      "viewport": 390,
+      "box": [44, 490, 128, 512],
+      "foreground": "white",
+      "size": "body"
+    },
+    {
+      "name": "header utility on white",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "primary nav on Catholic Blue",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "background": "catholic-blue",
+      "size": "body"
+    },
+    {
+      "name": "wordmark on Catholic Blue",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "background": "catholic-blue",
+      "size": "large"
+    },
+    {
+      "name": "primary button label",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "white",
+      "background": "catholic-red",
+      "size": "body"
+    },
+    {
+      "name": "mega panel link",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "mega panel link hover",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "mega panel heading",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "foreground_alpha": 0.8,
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "mega panel note",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "foreground_alpha": 0.75,
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "feature card title",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "background": "sandstone",
+      "size": "body"
+    },
+    {
+      "name": "feature card text",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "black",
+      "foreground_alpha": 0.75,
+      "background": "sandstone",
+      "size": "body"
+    },
+    {
+      "name": "feature card label",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "background": "sandstone",
+      "size": "body"
+    },
+    {
+      "name": "utility link hover",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "quiet link on light",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "path card title",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "background": "limestone",
+      "size": "body"
+    },
+    {
+      "name": "path card title hover",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "background": "limestone",
+      "size": "body"
+    },
+    {
+      "name": "proof note 12px",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "foreground_alpha": 0.8,
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "dark section body",
+      "viewport": 1440,
+      "type": "flat",
+      "foreground": "light-blue",
+      "background": "catholic-blue",
+      "size": "body"
+    },
+    {
+      "name": "drawer heading",
+      "viewport": 390,
+      "type": "flat",
+      "foreground": "catholic-blue",
+      "background": "white",
+      "size": "large"
+    },
+    {
+      "name": "drawer link",
+      "viewport": 390,
+      "type": "flat",
+      "foreground": "black",
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "drawer utility link",
+      "viewport": 390,
+      "type": "flat",
+      "foreground": "catholic-red",
+      "background": "white",
+      "size": "body"
+    },
+    {
+      "name": "mobile nav pill on red",
+      "viewport": 390,
+      "type": "flat",
+      "foreground": "white",
+      "background": "catholic-red",
+      "size": "body"
+    }
+  ]
+}

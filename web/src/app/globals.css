@@ -1,26 +1,82 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------
+   Brand tokens. Source of truth: brand.catholic.edu ("Lead with Light").
+   Do not add colours here that are not in the brand palette.
+   Contrast pairs are documented in scripts/contrast-check.py output.
+   ------------------------------------------------------------------ */
 :root {
+  /* Primary - these dominate */
   --catholic-red: #b21f2c;
   --catholic-blue: #0a3255;
+  /* Secondary */
   --bright-red: #e82f35;
   --bright-blue: #2459a9;
   --light-red: #e96955;
   --light-blue: #6dacde;
+  /* Tertiary - 5 to 10 percent, accents only */
   --yellow: #ffd65c;
   --blue-green: #b5e1e1;
+  /* Neutrals */
+  --black: #000000;
+  --white: #ffffff;
   --grey: #a7a9ac;
   --lux: #b18f50;
   --limestone: #efebe9;
   --sandstone: #f7f3ed;
-  --black: #000000;
-  --white: #ffffff;
+
+  /* Channel */
+  --shell-max: 1280px;
+  /* Measured from the rendered header: white tier 48px, blue tier 73px. */
+  --header-height: 121px;
+  --header-height-sm: 104px;
+
+  /* Hero scrims. Catholic Blue only, no invented hues. Space-separated channel
+     list, so rgb(var(--scrim-ink) / 0.9) is valid modern CSS. Kept as
+     variables so the same values can be pasted into the CMS.
+     The vertical scrim is the main device: it holds the bottom third for the
+     headline and lets the Basilica dome stay bright above it. */
+  --scrim-ink: 10 50 85;
+  --scrim-vertical: linear-gradient(
+    to top,
+    rgb(var(--scrim-ink) / 0.97) 0%,
+    rgb(var(--scrim-ink) / 0.94) 16%,
+    rgb(var(--scrim-ink) / 0.86) 32%,
+    rgb(var(--scrim-ink) / 0.66) 46%,
+    rgb(var(--scrim-ink) / 0.32) 62%,
+    rgb(var(--scrim-ink) / 0.1) 78%,
+    rgb(var(--scrim-ink) / 0) 92%
+  );
+  --scrim-horizontal: linear-gradient(
+    to right,
+    rgb(var(--scrim-ink) / 0.62) 0%,
+    rgb(var(--scrim-ink) / 0.44) 22%,
+    rgb(var(--scrim-ink) / 0.16) 46%,
+    rgb(var(--scrim-ink) / 0) 64%
+  );
+  /* "Lead with Light": one warm spill, top-right. Under 10 percent of the
+     hero area, and never used as text on a light neutral. */
+  --scrim-light: radial-gradient(
+    78% 62% at 86% 2%,
+    rgb(255 214 92 / 0.26) 0%,
+    rgb(255 214 92 / 0.07) 42%,
+    rgb(255 214 92 / 0) 68%
+  );
 }
 
 @theme inline {
   --color-catholic-red: var(--catholic-red);
   --color-catholic-blue: var(--catholic-blue);
+  --color-bright-red: var(--bright-red);
   --color-bright-blue: var(--bright-blue);
+  --color-light-red: var(--light-red);
+  --color-light-blue: var(--light-blue);
+  --color-yellow: var(--yellow);
+  --color-blue-green: var(--blue-green);
+  --color-black: var(--black);
+  --color-white: var(--white);
+  --color-grey: var(--grey);
+  --color-lux: var(--lux);
   --color-limestone: var(--limestone);
   --color-sandstone: var(--sandstone);
   --font-headline: var(--font-oswald);
@@ -34,7 +90,174 @@ body {
   font-family: var(--font-body), system-ui, sans-serif;
 }
 
+/* ------------------------------------------------------------------
+   Type helpers
+   ------------------------------------------------------------------ */
+.font-headline {
+  font-family: var(--font-oswald), "Acumin Pro Condensed", Oswald, sans-serif;
+  letter-spacing: 0.005em;
+}
+.font-editorial {
+  font-family: var(--font-crimson), "Warnock Pro", Georgia, serif;
+}
+/* Eyebrow / utility caps. Oswald carries the tracking, so it stays legible
+   at small sizes. */
+.eyebrow {
+  font-family: var(--font-oswald), Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------
+   Focus. Bright Blue clears 3:1 against white and against the
+   light neutrals; on dark surfaces the ring flips to white with a
+   dark inner halo (WCAG 2.2 SC 2.4.11 / 2.4.13).
+   ------------------------------------------------------------------ */
 .focus-ring:focus-visible {
-  outline: 2px solid var(--bright-blue);
+  outline: 3px solid var(--bright-blue);
   outline-offset: 2px;
+  border-radius: 2px;
+}
+.on-dark .focus-ring:focus-visible,
+.focus-ring-dark:focus-visible {
+  outline-color: var(--white);
+  box-shadow: 0 0 0 6px rgb(var(--scrim-ink) / 0.85);
+}
+
+/* ------------------------------------------------------------------
+   Hero
+   ------------------------------------------------------------------ */
+.hero-photo {
+  object-fit: cover;
+  object-position: 38% 46%;
+}
+@media (min-width: 768px) {
+  .hero-photo {
+    object-position: 50% 42%;
+  }
+}
+.scrim-vertical {
+  background: var(--scrim-vertical);
+}
+.scrim-horizontal {
+  background: var(--scrim-horizontal);
+}
+.scrim-light {
+  background: var(--scrim-light);
+}
+/* On a phone the copy occupies most of the plate, and the top of the frame is
+   bright sky. The vertical scrim holds further up so every line stays on
+   measured contrast rather than on a crop accident. Mirrored in
+   scripts/contrast-check.py. */
+@media (max-width: 767px) {
+  :root {
+    --scrim-vertical: linear-gradient(
+      to top,
+      rgb(var(--scrim-ink) / 0.98) 0%,
+      rgb(var(--scrim-ink) / 0.96) 26%,
+      rgb(var(--scrim-ink) / 0.93) 46%,
+      rgb(var(--scrim-ink) / 0.86) 64%,
+      rgb(var(--scrim-ink) / 0.72) 82%,
+      rgb(var(--scrim-ink) / 0.58) 100%
+    );
+    --scrim-horizontal: linear-gradient(
+      to right,
+      rgb(var(--scrim-ink) / 0.74) 0%,
+      rgb(var(--scrim-ink) / 0.6) 30%,
+      rgb(var(--scrim-ink) / 0.32) 58%,
+      rgb(var(--scrim-ink) / 0.1) 84%
+    );
+  }
+}
+/* The horizon: a single red rule that closes the hero and hands the page to
+   the quick paths below it. */
+.horizon-rule {
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    var(--catholic-red) 0%,
+    var(--bright-red) 38%,
+    rgb(var(--scrim-ink) / 0) 100%
+  );
+}
+
+/* ------------------------------------------------------------------
+   Motion. Everything is an entrance or a response, nothing loops.
+   ------------------------------------------------------------------ */
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes panel-open {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes photo-settle {
+  from {
+    transform: scale(1.06);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.animate-rise {
+  animation: hero-rise 520ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+.animate-panel {
+  animation: panel-open 140ms ease-out both;
+}
+.animate-photo {
+  animation: photo-settle 900ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+.delay-1 {
+  animation-delay: 90ms;
+}
+.delay-2 {
+  animation-delay: 170ms;
+}
+.delay-3 {
+  animation-delay: 250ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-panel,
+  .animate-photo {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Video hero sits under the same scrims as the photo. */
+.hero-media > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 42%;
+}
+
+/* Keep sticky-header anchors from hiding under the header. */
+:target {
+  scroll-margin-top: calc(var(--header-height) + 16px);
 }
